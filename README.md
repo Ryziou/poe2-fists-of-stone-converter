@@ -2,6 +2,8 @@
 
 Paste trade-site item text and convert modifiers to the Fists of Stone version for Path of Building.
 
+I made this quickly as I wanted to convert gloves to fists of stone without opening multiple pages and attempting to convert it slowly.
+
 https://ryziou.github.io/poe2-fists-of-stone-converter/
 
 Built with **React + TypeScript + Vite**.

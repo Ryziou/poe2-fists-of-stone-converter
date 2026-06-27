@@ -1,0 +1,553 @@
+Pre/Suf	Original	Fists																							
+Prefix	Adds 1 to (2-3) Cold damage to Attacks	Attacks Gain 10% of Damage as Extra Cold Damage																							
+Prefix	Adds (3-4) to (5-8) Cold damage to Attacks	Attacks Gain 11% of Damage as Extra Cold Damage																							
+Prefix	Adds (5-6) to (9-11) Cold damage to Attacks	Attacks Gain 12% of Damage as Extra Cold Damage																							
+Prefix	Adds (7-8) to (12-14) Cold damage to Attacks	Attacks Gain 13% of Damage as Extra Cold Damage																							
+Prefix	Adds (9-10) to (15-17) Cold damage to Attacks	Attacks Gain 14% of Damage as Extra Cold Damage																							
+Prefix	Adds (11-13) to (18-21) Cold damage to Attacks	Attacks Gain (15-16)% of Damage as Extra Cold Damage																							
+Prefix	Adds (14-15) to (22-24) Cold damage to Attacks	Attacks Gain (17-18)% of Damage as Extra Cold Damage																							
+Prefix	Adds (16-20) to (25-31) Cold damage to Attacks	Attacks Gain (19-20)% of Damage as Extra Cold Damage																							
+Prefix	Adds (21-24) to (32-37) Cold damage to Attacks	Attacks Gain (21-23)% of Damage as Extra Cold Damage																							
+Prefix	Adds (1-2) to 3 Fire damage to Attacks	Attacks Gain 10% of Damage as Extra Fire Damage																							
+Prefix	Adds (3-5) to (6-9) Fire damage to Attacks	Attacks Gain 11% of Damage as Extra Fire Damage																							
+Prefix	Adds (6-8) to (10-13) Fire damage to Attacks	Attacks Gain 12% of Damage as Extra Fire Damage																							
+Prefix	Adds (9-11) to (14-17) Fire damage to Attacks	Attacks Gain 13% of Damage as Extra Fire Damage																							
+Prefix	Adds (12-13) to (18-20) Fire damage to Attacks	Attacks Gain 14% of Damage as Extra Fire Damage																							
+Prefix	Adds (11-16) to (21-26) Fire damage to Attacks	Attacks Gain (15-16)% of Damage as Extra Fire Damage																							
+Prefix	Adds (13-19) to (27-32) Fire damage to Attacks	Attacks Gain (17-18)% of Damage as Extra Fire Damage																							
+Prefix	Adds (20-24) to (33-36) Fire damage to Attacks	Attacks Gain (19-20)% of Damage as Extra Fire Damage																							
+Prefix	Adds (25-29) to (37-45) Fire damage to Attacks	Attacks Gain (21-23)% of Damage as Extra Fire Damage																							
+Prefix	Adds 1 to (4-6) Lightning damage to Attacks	Attacks Gain 10% of Damage as Extra Lightning Damage																							
+Prefix	Adds 1 to (10-15) Lightning damage to Attacks	Attacks Gain 11% of Damage as Extra Lightning Damage																							
+Prefix	Adds 1 to (16-22) Lightning damage to Attacks	Attacks Gain 12% of Damage as Extra Lightning Damage																							
+Prefix	Adds 1 to (23-27) Lightning damage to Attacks	Attacks Gain 13% of Damage as Extra Lightning Damage																							
+Prefix	Adds 1 to (28-32) Lightning damage to Attacks	Attacks Gain 14% of Damage as Extra Lightning Damage																							
+Prefix	Adds (1-2) to (33-40) Lightning damage to Attacks	Attacks Gain (15-16)% of Damage as Extra Lightning Damage																							
+Prefix	Adds (1-2) to (41-47) Lightning damage to Attacks	Attacks Gain (17-18)% of Damage as Extra Lightning Damage																							
+Prefix	Adds (1-3) to (48-59) Lightning damage to Attacks	Attacks Gain (19-20)% of Damage as Extra Lightning Damage																							
+Prefix	Adds (1-4) to (60-71) Lightning damage to Attacks	Attacks Gain (21-23)% of Damage as Extra Lightning Damage																							
+Prefix	Adds (1-2) to 3 Physical Damage to Attacks	Attacks Gain 10% of Damage as Extra Physical Damage																							
+Prefix	Adds (2-3) to (4-6) Physical Damage to Attacks	Attacks Gain 11% of Damage as Extra Physical Damage																							
+Prefix	Adds (2-4) to (5-8) Physical Damage to Attacks	Attacks Gain 12% of Damage as Extra Physical Damage																							
+Prefix	Adds (4-6) to (8-11) Physical Damage to Attacks	Attacks Gain 13% of Damage as Extra Physical Damage																							
+Prefix	Adds (5-7) to (9-13) Physical Damage to Attacks	Attacks Gain 14% of Damage as Extra Physical Damage																							
+Prefix	Adds (6-10) to (12-17) Physical Damage to Attacks	Attacks Gain (15-16)% of Damage as Extra Physical Damage																							
+Prefix	Adds (7-11) to (14-20) Physical Damage to Attacks	Attacks Gain (17-18)% of Damage as Extra Physical Damage																							
+Prefix	Adds (10-15) to (18-26) Physical Damage to Attacks	Attacks Gain (19-20)% of Damage as Extra Physical Damage																							
+Prefix	Adds (12-19) to (22-32) Physical Damage to Attacks	Attacks Gain (21-23)% of Damage as Extra Physical Damage																							
+Prefix	(20-25)% increased Magnitude of Ailments you inflict	"+(10-25) to Ailment Threshold
+(10-20)% increased Elemental Ailment Threshold"																							
+Prefix	(26-32)% increased Magnitude of Ailments you inflict	"+(26-40) to Ailment Threshold
+(21-35)% increased Elemental Ailment Threshold"																							
+Prefix	(20-29)% increased Magnitude of Bleeding you inflict	Enemies you kill have a (10-30)% chance to explode, dealing a tenth of their maximum Life as Physical damage																							
+Prefix	(30-42)% increased Magnitude of Bleeding you inflict	Enemies you kill have a (31-50)% chance to explode, dealing a tenth of their maximum Life as Physical damage																							
+Prefix	Damaging Ailments deal damage (8-13)% faster	"Enemies take (5-10)% increased Damage for each Elemental Ailment type among
+your Ailments on them"																							
+Prefix	Damaging Ailments deal damage (14-20)% faster	"Enemies take (11-15)% increased Damage for each Elemental Ailment type among
+your Ailments on them"																							
+Prefix	(20-34)% increased Ignite Magnitude	"Enemies killed by your Hits are destroyed
+Burning Enemies you kill have a (10-30)% chance to Explode, dealing a
+tenth of their maximum Life as Fire Damage"																							
+Prefix	(35-50)% increased Ignite Magnitude	"Enemies killed by your Hits are destroyed
+Burning Enemies you kill have a (31-50)% chance to Explode, dealing a
+tenth of their maximum Life as Fire Damage"																							
+Prefix	(20-29)% increased Magnitude of Poison you inflict	Enemies you kill have a (9-14)% chance to explode, dealing a quarter of their maximum Life as Chaos damage																							
+Prefix	(30-42)% increased Magnitude of Poison you inflict	Enemies you kill have a (15-20)% chance to explode, dealing a quarter of their maximum Life as Chaos damage																							
+Prefix	+(11-32) to Accuracy Rating	(12-14)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(33-60) to Accuracy Rating	(15-17)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(61-84) to Accuracy Rating	(18-20)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(85-123) to Accuracy Rating	(21-23)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(124-167) to Accuracy Rating	(24-26)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(168-236) to Accuracy Rating	(27-29)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(237-346) to Accuracy Rating	(30-32)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(347-450) to Accuracy Rating	(33-35)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(451-550) to Accuracy Rating	(36-38)% chance to Blind Enemies on Hit with Attacks																							
+Prefix	+(10-19) to maximum Life	5% less damage taken while on Low Life																							
+Prefix	+(150-174) to maximum Life	14% less damage taken while on Low Life																							
+Prefix	+(175-189) to maximum Life	15% less damage taken while on Low Life																							
+Prefix	+(190-199) to maximum Life	16% less damage taken while on Low Life																							
+Prefix	+(200-214) to maximum Life	17% less damage taken while on Low Life																							
+Prefix	+(20-29) to maximum Life	6% less damage taken while on Low Life																							
+Prefix	+(30-39) to maximum Life	7% less damage taken while on Low Life																							
+Prefix	+(40-59) to maximum Life	8% less damage taken while on Low Life																							
+Prefix	+(60-69) to maximum Life	9% less damage taken while on Low Life																							
+Prefix	+(70-84) to maximum Life	10% less damage taken while on Low Life																							
+Prefix	+(85-99) to maximum Life	11% less damage taken while on Low Life																							
+Prefix	+(100-119) to maximum Life	12% less damage taken while on Low Life																							
+Prefix	+(120-149) to maximum Life	13% less damage taken while on Low Life																							
+Prefix	+(10-14) to maximum Mana	(10-11)% more Attack damage while on Low Mana																							
+Prefix	+(15-24) to maximum Mana	(12-13)% more Attack damage while on Low Mana																							
+Prefix	+(25-34) to maximum Mana	(14-15)% more Attack damage while on Low Mana																							
+Prefix	+(35-54) to maximum Mana	(16-17)% more Attack damage while on Low Mana																							
+Prefix	+(55-64) to maximum Mana	(18-19)% more Attack damage while on Low Mana																							
+Prefix	+(65-79) to maximum Mana	(20-21)% more Attack damage while on Low Mana																							
+Prefix	+(80-89) to maximum Mana	(22-23)% more Attack damage while on Low Mana																							
+Prefix	+(90-104) to maximum Mana	(24-25)% more Attack damage while on Low Mana																							
+Prefix	+(105-124) to maximum Mana	(26-27)% more Attack damage while on Low Mana																							
+Prefix	"+(9-16) to Armour
++(5-8) to maximum Energy Shield"	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(17-46) to Armour
++(9-15) to maximum Energy Shield"	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(47-71) to Armour
++(16-21) to maximum Energy Shield"	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(72-85) to Armour
++(22-25) to maximum Energy Shield"	"Has +4 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(9-16) to Armour
++(6-10) to Evasion Rating"	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(17-46) to Armour
++(11-41) to Evasion Rating"	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(47-71) to Armour
++(42-64) to Evasion Rating"	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(72-85) to Armour
++(65-78) to Evasion Rating"	"Has +4 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(6-10) to Evasion Rating
++(5-8) to maximum Energy Shield"	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(11-41) to Evasion Rating
++(9-15) to maximum Energy Shield"	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(42-64) to Evasion Rating
++(16-21) to maximum Energy Shield"	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"+(65-78) to Evasion Rating
++(22-25) to maximum Energy Shield"	"Has +4 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	(15-26)% increased Armour and Energy Shield	(7-8)% more Global Evasion Rating and Energy Shield																							
+Prefix	(27-42)% increased Armour and Energy Shield	(9-10)% more Global Evasion Rating and Energy Shield																							
+Prefix	(43-55)% increased Armour and Energy Shield	(11-12)% more Global Evasion Rating and Energy Shield																							
+Prefix	(56-67)% increased Armour and Energy Shield	(13-14)% more Global Evasion Rating and Energy Shield																							
+Prefix	(68-79)% increased Armour and Energy Shield	(15-16)% more Global Evasion Rating and Energy Shield																							
+Prefix	(80-91)% increased Armour and Energy Shield	(17-18)% more Global Evasion Rating and Energy Shield																							
+Prefix	(92-100)% increased Armour and Energy Shield	(19-20)% more Global Evasion Rating and Energy Shield																							
+Prefix	"(6-13)% increased Armour and Energy Shield
++(7-10) to maximum Life"	3% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(14-20)% increased Armour and Energy Shield
++(11-19) to maximum Life"	4% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(21-26)% increased Armour and Energy Shield
++(20-25) to maximum Life"	5% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(27-32)% increased Armour and Energy Shield
++(26-32) to maximum Life"	6% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(33-38)% increased Armour and Energy Shield
++(33-41) to maximum Life"	7% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(39-42)% increased Armour and Energy Shield
++(42-49) to maximum Life"	8% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	(15-26)% increased Armour and Evasion	(7-8)% more Global Evasion Rating and Energy Shield																							
+Prefix	(27-42)% increased Armour and Evasion	(9-10)% more Global Evasion Rating and Energy Shield																							
+Prefix	(43-55)% increased Armour and Evasion	(11-12)% more Global Evasion Rating and Energy Shield																							
+Prefix	(56-67)% increased Armour and Evasion	(13-14)% more Global Evasion Rating and Energy Shield																							
+Prefix	(68-79)% increased Armour and Evasion	(15-16)% more Global Evasion Rating and Energy Shield																							
+Prefix	(80-91)% increased Armour and Evasion	(17-18)% more Global Evasion Rating and Energy Shield																							
+Prefix	(92-100)% increased Armour and Evasion	(19-20)% more Global Evasion Rating and Energy Shield																							
+Prefix	(15-26)% increased Armour, Evasion and Energy Shield	(7-8)% more Global Evasion Rating and Energy Shield																							
+Prefix	(27-42)% increased Armour, Evasion and Energy Shield	(9-10)% more Global Evasion Rating and Energy Shield																							
+Prefix	(43-55)% increased Armour, Evasion and Energy Shield	(11-12)% more Global Evasion Rating and Energy Shield																							
+Prefix	(56-67)% increased Armour, Evasion and Energy Shield	(13-14)% more Global Evasion Rating and Energy Shield																							
+Prefix	(68-79)% increased Armour, Evasion and Energy Shield	(15-16)% more Global Evasion Rating and Energy Shield																							
+Prefix	(80-91)% increased Armour, Evasion and Energy Shield	(17-18)% more Global Evasion Rating and Energy Shield																							
+Prefix	(92-100)% increased Armour, Evasion and Energy Shield	(19-20)% more Global Evasion Rating and Energy Shield																							
+Prefix	(101-110)% increased Armour, Evasion and Energy Shield	(21-22)% more Global Evasion Rating and Energy Shield																							
+Prefix	"(6-13)% increased Armour and Evasion
++(7-10) to maximum Life"	3% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(14-20)% increased Armour and Evasion
++(11-19) to maximum Life"	4% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(21-26)% increased Armour and Evasion
++(20-25) to maximum Life"	5% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(27-32)% increased Armour and Evasion
++(26-32) to maximum Life"	6% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(33-38)% increased Armour and Evasion
++(33-41) to maximum Life"	7% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(39-42)% increased Armour and Evasion
++(42-49) to maximum Life"	8% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(6-13)% increased Armour
++(7-10) to maximum Life"	3% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(14-20)% increased Armour
++(11-19) to maximum Life"	4% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(21-26)% increased Armour
++(20-25) to maximum Life"	5% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(27-32)% increased Armour
++(26-32) to maximum Life"	6% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(33-38)% increased Armour
++(33-41) to maximum Life"	7% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(39-42)% increased Armour
++(42-49) to maximum Life"	8% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	+(10-17) to maximum Energy Shield	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(18-24) to maximum Energy Shield	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(25-30) to maximum Energy Shield	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(31-35) to maximum Energy Shield	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(36-41) to maximum Energy Shield	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(42-47) to maximum Energy Shield	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(48-60) to maximum Energy Shield	"Has +4 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	"(6-13)% increased Energy Shield
++(7-10) to maximum Life"	3% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(14-20)% increased Energy Shield
++(11-19) to maximum Life"	4% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(21-26)% increased Energy Shield
++(20-25) to maximum Life"	5% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(27-32)% increased Energy Shield
++(26-32) to maximum Life"	6% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(33-38)% increased Energy Shield
++(33-41) to maximum Life"	7% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(39-42)% increased Energy Shield
++(42-49) to maximum Life"	8% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	(15-26)% increased Energy Shield	(7-8)% more Global Evasion Rating and Energy Shield																							
+Prefix	(27-42)% increased Energy Shield	(9-10)% more Global Evasion Rating and Energy Shield																							
+Prefix	(43-55)% increased Energy Shield	(11-12)% more Global Evasion Rating and Energy Shield																							
+Prefix	(56-67)% increased Energy Shield	(13-14)% more Global Evasion Rating and Energy Shield																							
+Prefix	(68-79)% increased Energy Shield	(15-16)% more Global Evasion Rating and Energy Shield																							
+Prefix	(80-91)% increased Energy Shield	(17-18)% more Global Evasion Rating and Energy Shield																							
+Prefix	(92-100)% increased Energy Shield	(19-20)% more Global Evasion Rating and Energy Shield																							
+Prefix	(15-26)% increased Evasion and Energy Shield	(7-8)% more Global Evasion Rating and Energy Shield																							
+Prefix	(27-42)% increased Evasion and Energy Shield	(9-10)% more Global Evasion Rating and Energy Shield																							
+Prefix	(43-55)% increased Evasion and Energy Shield	(11-12)% more Global Evasion Rating and Energy Shield																							
+Prefix	(56-67)% increased Evasion and Energy Shield	(13-14)% more Global Evasion Rating and Energy Shield																							
+Prefix	(68-79)% increased Evasion and Energy Shield	(15-16)% more Global Evasion Rating and Energy Shield																							
+Prefix	(80-91)% increased Evasion and Energy Shield	(17-18)% more Global Evasion Rating and Energy Shield																							
+Prefix	(92-100)% increased Evasion and Energy Shield	(19-20)% more Global Evasion Rating and Energy Shield																							
+Prefix	"(6-13)% increased Evasion and Energy Shield
++(7-10) to maximum Life"	3% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(14-20)% increased Evasion and Energy Shield
++(11-19) to maximum Life"	4% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(21-26)% increased Evasion and Energy Shield
++(20-25) to maximum Life"	5% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(27-32)% increased Evasion and Energy Shield
++(26-32) to maximum Life"	6% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(33-38)% increased Evasion and Energy Shield
++(33-41) to maximum Life"	7% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(39-42)% increased Evasion and Energy Shield
++(42-49) to maximum Life"	8% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(6-13)% increased Evasion Rating
++(7-10) to maximum Life"	3% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(14-20)% increased Evasion Rating
++(11-19) to maximum Life"	4% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(21-26)% increased Evasion Rating
++(20-25) to maximum Life"	5% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(27-32)% increased Evasion Rating
++(26-32) to maximum Life"	6% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(33-38)% increased Evasion Rating
++(33-41) to maximum Life"	7% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	"(39-42)% increased Evasion Rating
++(42-49) to maximum Life"	8% of Damage Taken Recouped as Life, Mana and Energy Shield																							
+Prefix	+(11-18) to Evasion Rating	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(19-46) to Evasion Rating	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(47-66) to Evasion Rating	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(67-87) to Evasion Rating	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(88-116) to Evasion Rating	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(117-146) to Evasion Rating	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(147-176) to Evasion Rating	"Has +4 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	(15-26)% increased Evasion Rating	(7-8)% more Global Evasion Rating and Energy Shield																							
+Prefix	(27-42)% increased Evasion Rating	(9-10)% more Global Evasion Rating and Energy Shield																							
+Prefix	(43-55)% increased Evasion Rating	(11-12)% more Global Evasion Rating and Energy Shield																							
+Prefix	(56-67)% increased Evasion Rating	(13-14)% more Global Evasion Rating and Energy Shield																							
+Prefix	(68-79)% increased Evasion Rating	(15-16)% more Global Evasion Rating and Energy Shield																							
+Prefix	(80-91)% increased Evasion Rating	(17-18)% more Global Evasion Rating and Energy Shield																							
+Prefix	(92-100)% increased Evasion Rating	(19-20)% more Global Evasion Rating and Energy Shield																							
+Prefix	+(16-27) to Armour	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(28-56) to Armour	"Has +1 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(57-77) to Armour	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(78-98) to Armour	"Has +2 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(99-127) to Armour	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(128-159) to Armour	"Has +3 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	+(160-190) to Armour	"Has +4 to Evasion Rating per player level
+Has +1 to maximum Energy Shield per player level"																							
+Prefix	(15-26)% increased Armour	(7-8)% more Global Evasion Rating and Energy Shield																							
+Prefix	(27-42)% increased Armour	(9-10)% more Global Evasion Rating and Energy Shield																							
+Prefix	(43-55)% increased Armour	(11-12)% more Global Evasion Rating and Energy Shield																							
+Prefix	(56-67)% increased Armour	(13-14)% more Global Evasion Rating and Energy Shield																							
+Prefix	(68-79)% increased Armour	(15-16)% more Global Evasion Rating and Energy Shield																							
+Prefix	(80-91)% increased Armour	(17-18)% more Global Evasion Rating and Energy Shield																							
+Prefix	(92-100)% increased Armour	(19-20)% more Global Evasion Rating and Energy Shield																							
+Prefix	(25-50)% chance to Pierce an Enemy	Projectiles Pierce an additional Target																							
+Prefix	(15-24)% increased Effect of your Mark Skills	(32-46)% increased Critical Hit Chance against Marked Enemies																							
+Prefix	(25-39)% increased Effect of your Mark Skills	(47-61)% increased Critical Hit Chance against Marked Enemies																							
+Prefix	(11-20)% increased Projectile Damage	Melee Attacks fire an additional Projectile																							
+Prefix	(21-30)% increased Projectile Damage	Melee Attacks fire 2 additional Projectiles																							
+Prefix	(31-40)% increased Projectile Damage	Melee Attacks fire 3 additional Projectiles																							
+Prefix	(11-20)% increased Projectile Speed	(1-2)% increased Projectile Damage per Power Charge																							
+Prefix	(21-30)% increased Projectile Speed	(3-4)% increased Projectile Damage per Power Charge																							
+Prefix	(31-40)% increased Projectile Speed	(5-6)% increased Projectile Damage per Power Charge																							
+Prefix	(20-40)% increased effect of Arcane Surge on you	Gain (16-24) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently																							
+Prefix	Meta Skills gain 25% increased Energy while on Full Mana	(25-45)% of Damage taken Recouped as Mana																							
+Prefix	25% increased Mana Cost Efficiency	(15-40)% reduced Mana Cost of Attacks																							
+Prefix	Leech (4-6)% of Physical Attack Damage as Mana	Recover (2-6)% of your maximum Mana when an Enemy dies in your Presence																							
+Prefix	(10-15)% of Maximum Life Converted to Energy Shield	(20-30)% increased Attack Damage while on Low Life																							
+Prefix	(10-20)% increased maximum Mana	"+(36-42) to maximum Mana
+(15-35)% increased Attack Damage"																							
+Prefix	(20-30)% increased Cost Efficiency	Non-Channelling Skills Cost (-8--3) Mana																							
+Prefix	(25-50)% of Spell Mana Cost Converted to Life Cost	Attacks have added Physical damage equal to (1-3)% of maximum Life																							
+Suffix	+(13-17)% to Fire and Chaos Resistances	"+(2-3)% to Maximum Fire Resistance
++(13-17)% to Chaos Resistance"																							
+Suffix	+(9-15) to Strength and Intelligence	(7-9)% increased Strength and Intelligence																							
+Suffix	+(13-17)% to Cold and Chaos Resistances	"+(2-3)% to Maximum Cold Resistance
++(13-17)% to Chaos Resistance"																							
+Suffix	+(9-15) to Dexterity and Intelligence	(7-9)% increased Dexterity and Intelligence																							
+Suffix	+(13-17)% to Lightning and Chaos Resistances	"+(2-3)% to Maximum Lightning Resistance
++(13-17)% to Chaos Resistance"																							
+Suffix	+(9-15) to Strength and Dexterity	(7-9)% increased Strength and Dexterity																							
+Suffix	(6-10)% increased Mana Cost Efficiency	(6-10)% increased Reservation Efficiency of Skills																							
+Suffix	(12-20)% increased Area of Effect of Curses	Mark Skills have (15-25)% increased Use Speed																							
+Suffix	(10-20)% chance to Daze on Hit	Gain (11-15)% of Physical Damage as Extra Cold Damage against Dazed Enemies																							
+Suffix	(10-20)% increased Immobilisation buildup	(26-35)% increased Damage against Immobilised Enemies																							
+Suffix	(8-15)% of Leech is Instant	Life Leech can Overflow Maximum Life																							
+Suffix	(10-15)% chance to Gain Arcane Surge when you deal a Critical Hit	(5-10)% chance to gain a Power Charge on Critical Hit																							
+Suffix	(8-15)% increased Cast Speed when on Full Life	(17-23)% increased Attack Speed when on Full Life																							
+Suffix	(10-20)% increased Magnitude of Ailments you inflict	(20-35)% increased Magnitude of Damaging Ailments you inflict with Critical Hits																							
+Suffix	(20-30)% increased chance to inflict Bleeding	Chance to inflict Bleeding is calculated from your base chance to Poison instead																							
+Suffix	(8-12)% increased Skill Speed if you've consumed a Frenzy Charge Recently	(13-17)% increased Attack Speed if you haven't been Hit Recently																							
+Suffix	(15-25)% chance for Attack Hits to apply Incision	Attack Hits Aggravate any Bleeding on targets which is older than (3-4) seconds																							
+Suffix	(20-30)% increased chance to Poison	Chance to Poison is calculated from your base chance to inflict Bleeding instead																							
+Suffix	(10-15)% increased Area of Effect for Attacks	1% increased Area of Effect for Attacks per 10 Intelligence																							
+Suffix	(9-12)% increased Cast Speed	(10-30)% chance to gain a Power Charge when you Stun																							
+Suffix	(20-25)% increased Duration of Damaging Ailments on Enemies	(15-25)% increased Magnitude of Damaging Ailments you inflict with Critical Hits																							
+Suffix	Damage Penetrates (9-15)% Elemental Resistances	+(20-30)% to all Elemental Resistances																							
+Suffix	Remnants can be collected from (35-50)% further away	(17-23)% chance for Remnants you pick up to count as picking up an additional Remnant																							
+Suffix	+(14-19)% of Armour also applies to Elemental Damage	+(10-12)% to all Elemental Resistances																							
+Suffix	+(20-25)% of Armour also applies to Elemental Damage	+(13-15)% to all Elemental Resistances																							
+Suffix	+(26-31)% of Armour also applies to Elemental Damage	+(16-18)% to all Elemental Resistances																							
+Suffix	+(32-37)% of Armour also applies to Elemental Damage	+(19-21)% to all Elemental Resistances																							
+Suffix	+(38-43)% of Armour also applies to Elemental Damage	+(22-24)% to all Elemental Resistances																							
+Suffix	+(4-7)% to Chaos Resistance	"+1% to Maximum Chaos Resistance
++(6-9)% to Chaos Resistance"																							
+Suffix	+(8-11)% to Chaos Resistance	"+1% to Maximum Chaos Resistance
++(10-13)% to Chaos Resistance"																							
+Suffix	+(12-15)% to Chaos Resistance	"+1% to Maximum Chaos Resistance
++(14-17)% to Chaos Resistance"																							
+Suffix	+(16-19)% to Chaos Resistance	"+1% to Maximum Chaos Resistance
++(18-21)% to Chaos Resistance"																							
+Suffix	+(20-23)% to Chaos Resistance	"+1% to Maximum Chaos Resistance
++(22-25)% to Chaos Resistance"																							
+Suffix	+(24-27)% to Chaos Resistance	"+2% to Maximum Chaos Resistance
++(22-25)% to Chaos Resistance"																							
+Suffix	+(6-10)% to Cold Resistance	"+1% to Maximum Cold Resistance
++(11-15)% to Cold Resistance"																							
+Suffix	+(11-15)% to Cold Resistance	"+1% to Maximum Cold Resistance
++(16-20)% to Cold Resistance"																							
+Suffix	+(16-20)% to Cold Resistance	"+1% to Maximum Cold Resistance
++(21-25)% to Cold Resistance"																							
+Suffix	+(21-25)% to Cold Resistance	"+2% to Maximum Cold Resistance
++(21-25)% to Cold Resistance"																							
+Suffix	+(26-30)% to Cold Resistance	"+2% to Maximum Cold Resistance
++(26-30)% to Cold Resistance"																							
+Suffix	+(31-35)% to Cold Resistance	"+2% to Maximum Cold Resistance
++(31-35)% to Cold Resistance"																							
+Suffix	+(36-40)% to Cold Resistance	"+2% to Maximum Cold Resistance
++(36-40)% to Cold Resistance"																							
+Suffix	+(41-45)% to Cold Resistance	"+3% to Maximum Cold Resistance
++(36-40)% to Cold Resistance"																							
+Suffix	(10-14)% increased Critical Damage Bonus	+(0.5-1)% to Critical Hit Chance																							
+Suffix	(15-19)% increased Critical Damage Bonus	+(1.1-1.5)% to Critical Hit Chance																							
+Suffix	(20-24)% increased Critical Damage Bonus	+(1.6-2)% to Critical Hit Chance																							
+Suffix	(25-29)% increased Critical Damage Bonus	+(2.1-2.5)% to Critical Hit Chance																							
+Suffix	(30-34)% increased Critical Damage Bonus	+(2.5-3)% to Critical Hit Chance																							
+Suffix	(10-19)% increased Duration of Damaging Ailments on Enemies	(10-22)% increased Duration of Ailments on Enemies																							
+Suffix	(20-30)% increased Duration of Damaging Ailments on Enemies	(23-37)% increased Duration of Ailments on Enemies																							
+Suffix	(15-21)% increased Curse Magnitudes	You can apply an additional Curse																							
+Suffix	(22-29)% increased Curse Magnitudes	"You can apply an additional Curse
+(5-15)% increased Curse Magnitudes"																							
+Suffix	(20-34)% increased Exposure Effect	Damage Penetrates (4-8)% Elemental Resistances																							
+Suffix	(35-50)% increased Exposure Effect	Damage Penetrates (9-15)% Elemental Resistances																							
+Suffix	(20-30)% faster Curse Activation	Gain (1-10) Mana per Cursed Enemy Hit with Attacks																							
+Suffix	"Leech (8-12)% of Physical Attack Damage as Life
+Leech Life (15-25)% faster"	(15-35)% increased Damage while Leeching																							
+Suffix	(50-99)% increased Curse Duration	Gain (1-10) Life per Cursed Enemy Hit with Attacks																							
+Suffix	(30-40)% increased amount of Life Leeched	Leech (7-12)% of Physical Attack Damage as Life																							
+Suffix	"Leech (8-12)% of Physical Attack Damage as Life
+Leech Life (15-25)% slower"	(15-35)% increased Evasion while Leeching																							
+Suffix	(15-24)% increased Withered Magnitude	Damage with Weapons Penetrates (5-9)% Chaos Resistance																							
+Suffix	(25-35)% increased Withered Magnitude	Damage with Weapons Penetrates (10-17)% Chaos Resistance																							
+Suffix	+(5-8) to Dexterity	+(15-18)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(9-12) to Dexterity	+(19-22)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(13-16) to Dexterity	+(23-26)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(17-20) to Dexterity	+(27-30)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(21-24) to Dexterity	+(31-35)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(25-27) to Dexterity	+(36-40)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(28-30) to Dexterity	+(41-45)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(31-33) to Dexterity	+(46-50)% Surpassing chance to fire an additional Projectile																							
+Suffix	+(34-36) to Dexterity	+(51-60)% Surpassing chance to fire an additional Projectile																							
+Suffix	(5-8)% increased Energy Shield Recharge Rate	(26-30)% faster start of Energy Shield Recharge																							
+Suffix	(9-11)% increased Energy Shield Recharge Rate	(31-35)% faster start of Energy Shield Recharge																							
+Suffix	(12-15)% increased Energy Shield Recharge Rate	(36-40)% faster start of Energy Shield Recharge																							
+Suffix	(16-19)% increased Energy Shield Recharge Rate	(41-45)% faster start of Energy Shield Recharge																							
+Suffix	(20-23)% increased Energy Shield Recharge Rate	(46-50)% faster start of Energy Shield Recharge																							
+Suffix	(24-27)% increased Energy Shield Recharge Rate	(51-55)% faster start of Energy Shield Recharge																							
+Suffix	(10-15)% increased Quantity of Gold Dropped by Slain Enemies	Charms gain (0.13-0.27) charges per Second																							
+Suffix	(26-30)% of Lightning Damage taken Recouped as Life	(12-23)% of Damage taken from Deflected Hits Recouped as Life																							
+Suffix	60% increased effect of Socketed Augment Items	"Life Flasks gain (0.13-0.27) charges per Second
+Mana Flasks gain (0.13-0.27) charges per Second"																							
+Suffix	Gain Deflection Rating equal to (8-11)% of Evasion Rating	Prevent +3% of Damage from Deflected Hits																							
+Suffix	Gain Deflection Rating equal to (12-14)% of Evasion Rating	Prevent +4% of Damage from Deflected Hits																							
+Suffix	Gain Deflection Rating equal to (15-17)% of Evasion Rating	Prevent +5% of Damage from Deflected Hits																							
+Suffix	Gain Deflection Rating equal to (18-20)% of Evasion Rating	Prevent +6% of Damage from Deflected Hits																							
+Suffix	Gain Deflection Rating equal to (21-23)% of Evasion Rating	Prevent +7% of Damage from Deflected Hits																							
+Suffix	+(6-10)% to Fire Resistance	"+1% to Maximum Fire Resistance
++(11-15)% to Fire Resistance"																							
+Suffix	+(11-15)% to Fire Resistance	"+1% to Maximum Fire Resistance
++(16-20)% to Fire Resistance"																							
+Suffix	+(16-20)% to Fire Resistance	"+1% to Maximum Fire Resistance
++(21-25)% to Fire Resistance"																							
+Suffix	+(21-25)% to Fire Resistance	"+2% to Maximum Fire Resistance
++(21-25)% to Fire Resistance"																							
+Suffix	+(26-30)% to Fire Resistance	"+2% to Maximum Fire Resistance
++(26-30)% to Fire Resistance"																							
+Suffix	+(31-35)% to Fire Resistance	"+2% to Maximum Fire Resistance
++(31-35)% to Fire Resistance"																							
+Suffix	+(36-40)% to Fire Resistance	"+2% to Maximum Fire Resistance
++(36-40)% to Fire Resistance"																							
+Suffix	+(41-45)% to Fire Resistance	"+3% to Maximum Fire Resistance
++(36-40)% to Fire Resistance"																							
+Suffix	+1 to Level of all Melee Skills	+(10-12)% to Quality of all Skills																							
+Suffix	+2 to Level of all Melee Skills	"+1 to Level of all Melee Skills
++(10-12)% to Quality of all Skills"																							
+Suffix	(5-7)% increased Attack Speed	(8-12)% chance to gain Onslaught for 4 seconds on Hit																							
+Suffix	(8-10)% increased Attack Speed	(14-18)% chance to gain Onslaught for 4 seconds on Hit																							
+Suffix	(11-13)% increased Attack Speed	(20-24)% chance to gain Onslaught for 4 seconds on Hit																							
+Suffix	(14-16)% increased Attack Speed	(26-30)% chance to gain Onslaught for 4 seconds on Hit																							
+Suffix	+(5-8) to Intelligence	(5-8)% increased Cooldown Recovery Rate																							
+Suffix	+(9-12) to Intelligence	(9-12)% increased Cooldown Recovery Rate																							
+Suffix	+(13-16) to Intelligence	(13-16)% increased Cooldown Recovery Rate																							
+Suffix	+(17-20) to Intelligence	(17-20)% increased Cooldown Recovery Rate																							
+Suffix	+(21-24) to Intelligence	(21-24)% increased Cooldown Recovery Rate																							
+Suffix	+(25-27) to Intelligence	(25-28)% increased Cooldown Recovery Rate																							
+Suffix	+(28-30) to Intelligence	(29-32)% increased Cooldown Recovery Rate																							
+Suffix	+(31-33) to Intelligence	10% increased Cooldown Recovery Rate																							
+Suffix	(6-10)% increased Rarity of Items found	(15-20)% increased Quantity of Gold Dropped by Slain Enemies																							
+Suffix	(11-14)% increased Rarity of Items found	(21-25)% increased Quantity of Gold Dropped by Slain Enemies																							
+Suffix	(15-18)% increased Rarity of Items found	(26-30)% increased Quantity of Gold Dropped by Slain Enemies																							
+Suffix	Gain (4-6) Life per enemy killed	Recover 1% of maximum Life on Kill																							
+Suffix	Gain (7-9) Life per enemy killed	Recover 1% of maximum Life on Kill																							
+Suffix	Gain (10-18) Life per enemy killed	Recover 1% of maximum Life on Kill																							
+Suffix	Gain (19-28) Life per enemy killed	Recover 2% of maximum Life on Kill																							
+Suffix	Gain (29-40) Life per enemy killed	Recover 2% of maximum Life on Kill																							
+Suffix	Gain (41-53) Life per enemy killed	Recover 2% of maximum Life on Kill																							
+Suffix	Gain (54-68) Life per enemy killed	Recover 2% of maximum Life on Kill																							
+Suffix	Gain (69-84) Life per enemy killed	Recover 3% of maximum Life on Kill																							
+Suffix	Gain 2 Life per Enemy Hit with Attacks	Gain (4-6) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently																							
+Suffix	Gain 3 Life per Enemy Hit with Attacks	Gain (7-9) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently																							
+Suffix	Gain 4 Life per Enemy Hit with Attacks	Gain (10-12) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently																							
+Suffix	Gain 5 Life per Enemy Hit with Attacks	Gain (13-15) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently																							
+Suffix	Leech (5-5.9)% of Physical Attack Damage as Life	"Leech (8-8.9)% of Physical Attack Damage as Life
+Leech Life (20-25)% slower"																							
+Suffix	Leech (6-6.9)% of Physical Attack Damage as Life	"Leech (9-10.9)% of Physical Attack Damage as Life
+Leech Life (20-25)% slower"																							
+Suffix	Leech (7-7.9)% of Physical Attack Damage as Life	"Leech (11-11.9)% of Physical Attack Damage as Life
+Leech Life (20-25)% slower"																							
+Suffix	Leech (8-8.9)% of Physical Attack Damage as Life	"Leech (12-13.9)% of Physical Attack Damage as Life
+Leech Life (20-25)% slower"																							
+Suffix	Leech (9-9.9)% of Physical Attack Damage as Life	"Leech (14-15)% of Physical Attack Damage as Life
+Leech Life (20-25)% slower"																							
+Suffix	+(6-10)% to Lightning Resistance	"+1% to Maximum Lightning Resistance
++(11-15)% to Lightning Resistance"																							
+Suffix	+(11-15)% to Lightning Resistance	"+1% to Maximum Lightning Resistance
++(16-20)% to Lightning Resistance"																							
+Suffix	+(16-20)% to Lightning Resistance	"+1% to Maximum Lightning Resistance
++(21-25)% to Lightning Resistance"																							
+Suffix	+(21-25)% to Lightning Resistance	"+2% to Maximum Lightning Resistance
++(21-25)% to Lightning Resistance"																							
+Suffix	+(26-30)% to Lightning Resistance	"+2% to Maximum Lightning Resistance
++(26-30)% to Lightning Resistance"																							
+Suffix	+(31-35)% to Lightning Resistance	"+2% to Maximum Lightning Resistance
++(31-35)% to Lightning Resistance"																							
+Suffix	+(36-40)% to Lightning Resistance	"+2% to Maximum Lightning Resistance
++(36-40)% to Lightning Resistance"																							
+Suffix	+(41-45)% to Lightning Resistance	"+3% to Maximum Lightning Resistance
++(36-40)% to Lightning Resistance"																							
+Suffix	Gain (2-3) Mana per enemy killed	Recover 1% of maximum Mana on Kill																							
+Suffix	Gain (4-5) Mana per enemy killed	Recover 1% of maximum Mana on Kill																							
+Suffix	Gain (6-9) Mana per enemy killed	Recover 1% of maximum Mana on Kill																							
+Suffix	Gain (10-14) Mana per enemy killed	Recover 2% of maximum Mana on Kill																							
+Suffix	Gain (15-20) Mana per enemy killed	Recover 2% of maximum Mana on Kill																							
+Suffix	Gain (21-27) Mana per enemy killed	Recover 2% of maximum Mana on Kill																							
+Suffix	Gain (28-35) Mana per enemy killed	Recover 2% of maximum Mana on Kill																							
+Suffix	Gain (36-45) Mana per enemy killed	Recover 3% of maximum Mana on Kill																							
+Suffix	Leech (4-4.9)% of Physical Attack Damage as Mana	"Leech (6-7.9)% of Physical Attack Damage as Mana
+Leech Mana (20-25)% slower"																							
+Suffix	Leech (5-5.9)% of Physical Attack Damage as Mana	"Leech (8-8.9)% of Physical Attack Damage as Mana
+Leech Mana (20-25)% slower"																							
+Suffix	Leech (6-6.9)% of Physical Attack Damage as Mana	"Leech (9-10.9)% of Physical Attack Damage as Mana
+Leech Mana (20-25)% slower"																							
+Suffix	Leech (7-7.9)% of Physical Attack Damage as Mana	"Leech (11-11.9)% of Physical Attack Damage as Mana
+Leech Mana (20-25)% slower"																							
+Suffix	Leech (8-8.9)% of Physical Attack Damage as Mana	"Leech (12-13)% of Physical Attack Damage as Mana
+Leech Mana (20-25)% slower"																							
+Suffix	Projectiles have (10-19)% chance to Chain an additional time from terrain	Attacks Chain an additional time																							
+Suffix	Projectiles have (20-32)% chance to Chain an additional time from terrain	Attacks Chain 2 additional times																							
+Suffix	Projectiles have (25-50)% chance for an additional Projectile when Forking	Projectiles have (45-64)% chance to Fork if you've dealt a Melee Hit in the past eight seconds																							
+Suffix	Projectiles have (51-100)% chance for an additional Projectile when Forking	Projectiles have (65-85)% chance to Fork if you've dealt a Melee Hit in the past eight seconds																							
+Suffix	(51-100)% chance to Pierce an Enemy	Projectiles Pierce 2 additional Targets																							
+Suffix	(16-21)% increased Critical Hit Chance	Hits against you have (30-39)% reduced Critical Damage Bonus																							
+Suffix	(22-27)% increased Critical Hit Chance	Hits against you have (40-49)% reduced Critical Damage Bonus																							
+Suffix	(28-34)% increased Critical Hit Chance	Hits against you have (50-60)% reduced Critical Damage Bonus																							
+Suffix	Mark Skills have (50-74)% increased Skill Effect Duration	When your Marks are Consumed, they have (10-19)% chance to Mark another Enemy within 3 metres																							
+Suffix	Mark Skills have (75-100)% increased Skill Effect Duration	When your Marks are Consumed, they have (20-29)% chance to Mark another Enemy within 3 metres																							
+Suffix	+(1-2) to Level of all Mark Skills	Enemies you Mark take (1-5)% increased Damage																							
+Suffix	+(3-4) to Level of all Mark Skills	Enemies you Mark take (6-10)% increased Damage																							
+Suffix	Mark Skills have (13-23)% increased Use Speed	(10-19)% increased Damage with Hits against Marked Enemy																							
+Suffix	Mark Skills have (24-39)% increased Use Speed	(20-29)% increased Damage with Hits against Marked Enemy																							
+Suffix	+1 to Level of all Projectile Skills	Projectiles have (25-44)% chance to Fork																							
+Suffix	+2 to Level of all Projectile Skills	Projectiles have (45-65)% chance to Fork																							
+Suffix	+(23-36)% Surpassing chance to fire an additional Projectile	Projectiles have (15-20)% chance to Shock																							
+Suffix	+(37-50)% Surpassing chance to fire an additional Projectile	Projectiles have (21-25)% chance to Shock																							
+Suffix	+(51-66)% Surpassing chance to fire an additional Projectile	Projectiles have (26-30)% chance to Shock																							
+Suffix	15% reduced Attribute Requirements	+(5-10) to all Attributes																							
+Suffix	20% reduced Attribute Requirements	+(11-15) to all Attributes																							
+Suffix	25% reduced Attribute Requirements	+(16-20) to all Attributes																							
+Suffix	30% reduced Attribute Requirements	+(21-25) to all Attributes																							
+Suffix	35% reduced Attribute Requirements	+(26-30) to all Attributes																							
+Suffix	+(5-8) to Strength	(7-10)% increased Area of Effect for Attacks																							
+Suffix	+(9-12) to Strength	(11-13)% increased Area of Effect for Attacks																							
+Suffix	+(13-16) to Strength	(14-16)% increased Area of Effect for Attacks																							
+Suffix	+(17-20) to Strength	(17-19)% increased Area of Effect for Attacks																							
+Suffix	+(21-24) to Strength	(20-22)% increased Area of Effect for Attacks																							
+Suffix	+(25-27) to Strength	(23-25)% increased Area of Effect for Attacks																							
+Suffix	+(28-30) to Strength	(26-28)% increased Area of Effect for Attacks																							
+Suffix	+(31-33) to Strength	(29-32)% increased Area of Effect for Attacks																							
+Suffix	+(100-150) to maximum Energy Shield	(7-16)% increased maximum Energy Shield																							
+Suffix	(30-50)% increased chance to inflict Bleeding	Attacks have (35-80)% chance to cause Bleeding																							
+Suffix	(20-40)% increased Magnitude of Chill you inflict	(20-50)% chance to Avoid being Chilled																							
+Suffix	(10-20)% increased Curse Magnitudes	(20-30)% reduced effect of Curses on you																							
+Suffix	(10-15)% increased Damage per Curse on you	(10-20)% increased Damage with Hits per Curse on Enemy																							
+Suffix	(10-20)% increased Freeze Duration on Enemies	Regenerate (5-15)% of maximum Life per second while Frozen																							
+Suffix	(5-10)% Global chance to Blind Enemies on Hit	Dazes on Hit																							
+Suffix	+1 to Level of all Chaos Skills	Attacks have added Chaos damage equal to (1-3)% of maximum Life																							
+Suffix	(20-40)% increased Ignite Magnitude	(20-50)% chance to Avoid being Ignited																							
+Suffix	25% increased Attack Speed	Attack Skills have Added Lightning Damage equal to (1-5)% of maximum Mana																							
+Suffix	(5-10)% increased maximum Life	+(205-221) to maximum Life																							
+Suffix	(20-25)% increased amount of Life Leeched	Life Leech effects are not removed when Unreserved Life is Filled																							
+Suffix	+(8-10) maximum Rage if you've used a Skill that Requires Glory in the past 20 seconds	Gain (1-3) Rage on Melee Hit																							
+Suffix	(12-16)% chance that if you would gain Rage on Hit, you instead gain up to your maximum Rage	Gain 1% of Physical Damage as Extra Fire Damage per Rage																							
+Suffix	(30-40)% increased Duration of Poisons you inflict when you've consumed a Frenzy Charge Recently	"(20-35)% increased Damage for each Poison on you up to a maximum of 75%
+Poison you inflict is Reflected to you"																							
+Suffix	(10-16)% increased Magnitude of Poison you inflict	Critical Hits Poison the enemy																							
+Suffix	(30-60)% increased Magnitude of Poison you inflict on targets that are not Poisoned	(10-60)% reduced Poison Duration on you																							
+Suffix	Recover (0.5-1)% of maximum Life per Poison affecting Enemies you Kill	"+(12-23)% to Chaos Resistance per Poison on you
+Poison you inflict is Reflected to you"																							
+Suffix	(40-60)% reduced Poison Duration on you	"(17-25)% increased Movement Speed for each Poison on you up to a maximum of 50%
+Poison you inflict is Reflected to you"																							
+Suffix	(20-40)% increased Magnitude of Shock you inflict	(20-50)% chance to Avoid being Shocked																							

@@ -1,0 +1,3842 @@
+[
+  {
+    "type": "Prefix",
+    "original": [
+      "+(9-16) to Armour",
+      "+(5-8) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(17-46) to Armour",
+      "+(9-15) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(47-71) to Armour",
+      "+(16-21) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(72-85) to Armour",
+      "+(22-25) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +4 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(9-16) to Armour",
+      "+(6-10) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(17-46) to Armour",
+      "+(11-41) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(47-71) to Armour",
+      "+(42-64) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(72-85) to Armour",
+      "+(65-78) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +4 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(6-10) to Evasion Rating",
+      "+(5-8) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(11-41) to Evasion Rating",
+      "+(9-15) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(42-64) to Evasion Rating",
+      "+(16-21) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(65-78) to Evasion Rating",
+      "+(22-25) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +4 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(6-13)% increased Armour and Energy Shield",
+      "+(7-10) to maximum Life"
+    ],
+    "fists": [
+      "3% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(14-20)% increased Armour and Energy Shield",
+      "+(11-19) to maximum Life"
+    ],
+    "fists": [
+      "4% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-26)% increased Armour and Energy Shield",
+      "+(20-25) to maximum Life"
+    ],
+    "fists": [
+      "5% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-32)% increased Armour and Energy Shield",
+      "+(26-32) to maximum Life"
+    ],
+    "fists": [
+      "6% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(33-38)% increased Armour and Energy Shield",
+      "+(33-41) to maximum Life"
+    ],
+    "fists": [
+      "7% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(39-42)% increased Armour and Energy Shield",
+      "+(42-49) to maximum Life"
+    ],
+    "fists": [
+      "8% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(6-13)% increased Armour and Evasion",
+      "+(7-10) to maximum Life"
+    ],
+    "fists": [
+      "3% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(14-20)% increased Armour and Evasion",
+      "+(11-19) to maximum Life"
+    ],
+    "fists": [
+      "4% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-26)% increased Armour and Evasion",
+      "+(20-25) to maximum Life"
+    ],
+    "fists": [
+      "5% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-32)% increased Armour and Evasion",
+      "+(26-32) to maximum Life"
+    ],
+    "fists": [
+      "6% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(33-38)% increased Armour and Evasion",
+      "+(33-41) to maximum Life"
+    ],
+    "fists": [
+      "7% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(39-42)% increased Armour and Evasion",
+      "+(42-49) to maximum Life"
+    ],
+    "fists": [
+      "8% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(6-13)% increased Armour",
+      "+(7-10) to maximum Life"
+    ],
+    "fists": [
+      "3% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(14-20)% increased Armour",
+      "+(11-19) to maximum Life"
+    ],
+    "fists": [
+      "4% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-26)% increased Armour",
+      "+(20-25) to maximum Life"
+    ],
+    "fists": [
+      "5% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-32)% increased Armour",
+      "+(26-32) to maximum Life"
+    ],
+    "fists": [
+      "6% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(33-38)% increased Armour",
+      "+(33-41) to maximum Life"
+    ],
+    "fists": [
+      "7% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(39-42)% increased Armour",
+      "+(42-49) to maximum Life"
+    ],
+    "fists": [
+      "8% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(6-13)% increased Energy Shield",
+      "+(7-10) to maximum Life"
+    ],
+    "fists": [
+      "3% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(14-20)% increased Energy Shield",
+      "+(11-19) to maximum Life"
+    ],
+    "fists": [
+      "4% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-26)% increased Energy Shield",
+      "+(20-25) to maximum Life"
+    ],
+    "fists": [
+      "5% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-32)% increased Energy Shield",
+      "+(26-32) to maximum Life"
+    ],
+    "fists": [
+      "6% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(33-38)% increased Energy Shield",
+      "+(33-41) to maximum Life"
+    ],
+    "fists": [
+      "7% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(39-42)% increased Energy Shield",
+      "+(42-49) to maximum Life"
+    ],
+    "fists": [
+      "8% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(6-13)% increased Evasion and Energy Shield",
+      "+(7-10) to maximum Life"
+    ],
+    "fists": [
+      "3% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(14-20)% increased Evasion and Energy Shield",
+      "+(11-19) to maximum Life"
+    ],
+    "fists": [
+      "4% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-26)% increased Evasion and Energy Shield",
+      "+(20-25) to maximum Life"
+    ],
+    "fists": [
+      "5% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-32)% increased Evasion and Energy Shield",
+      "+(26-32) to maximum Life"
+    ],
+    "fists": [
+      "6% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(33-38)% increased Evasion and Energy Shield",
+      "+(33-41) to maximum Life"
+    ],
+    "fists": [
+      "7% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(39-42)% increased Evasion and Energy Shield",
+      "+(42-49) to maximum Life"
+    ],
+    "fists": [
+      "8% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(6-13)% increased Evasion Rating",
+      "+(7-10) to maximum Life"
+    ],
+    "fists": [
+      "3% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(14-20)% increased Evasion Rating",
+      "+(11-19) to maximum Life"
+    ],
+    "fists": [
+      "4% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-26)% increased Evasion Rating",
+      "+(20-25) to maximum Life"
+    ],
+    "fists": [
+      "5% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-32)% increased Evasion Rating",
+      "+(26-32) to maximum Life"
+    ],
+    "fists": [
+      "6% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(33-38)% increased Evasion Rating",
+      "+(33-41) to maximum Life"
+    ],
+    "fists": [
+      "7% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(39-42)% increased Evasion Rating",
+      "+(42-49) to maximum Life"
+    ],
+    "fists": [
+      "8% of Damage Taken Recouped as Life, Mana and Energy Shield"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (8-12)% of Physical Attack Damage as Life",
+      "Leech Life (15-25)% faster"
+    ],
+    "fists": [
+      "(15-35)% increased Damage while Leeching"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (8-12)% of Physical Attack Damage as Life",
+      "Leech Life (15-25)% slower"
+    ],
+    "fists": [
+      "(15-35)% increased Evasion while Leeching"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds 1 to (2-3) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 10% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (3-4) to (5-8) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 11% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (5-6) to (9-11) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 12% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (7-8) to (12-14) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 13% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (9-10) to (15-17) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 14% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (11-13) to (18-21) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (15-16)% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (14-15) to (22-24) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (17-18)% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (16-20) to (25-31) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (19-20)% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (21-24) to (32-37) Cold damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (21-23)% of Damage as Extra Cold Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (1-2) to 3 Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 10% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (3-5) to (6-9) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 11% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (6-8) to (10-13) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 12% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (9-11) to (14-17) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 13% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (12-13) to (18-20) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 14% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (11-16) to (21-26) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (15-16)% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (13-19) to (27-32) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (17-18)% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (20-24) to (33-36) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (19-20)% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (25-29) to (37-45) Fire damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (21-23)% of Damage as Extra Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds 1 to (4-6) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 10% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds 1 to (10-15) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 11% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds 1 to (16-22) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 12% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds 1 to (23-27) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 13% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds 1 to (28-32) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 14% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (1-2) to (33-40) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (15-16)% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (1-2) to (41-47) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (17-18)% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (1-3) to (48-59) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (19-20)% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (1-4) to (60-71) Lightning damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (21-23)% of Damage as Extra Lightning Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (1-2) to 3 Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 10% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (2-3) to (4-6) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 11% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (2-4) to (5-8) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 12% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (4-6) to (8-11) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 13% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (5-7) to (9-13) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain 14% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (6-10) to (12-17) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (15-16)% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (7-11) to (14-20) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (17-18)% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (10-15) to (18-26) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (19-20)% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Adds (12-19) to (22-32) Physical Damage to Attacks"
+    ],
+    "fists": [
+      "Attacks Gain (21-23)% of Damage as Extra Physical Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(20-25)% increased Magnitude of Ailments you inflict"
+    ],
+    "fists": [
+      "+(10-25) to Ailment Threshold",
+      "(10-20)% increased Elemental Ailment Threshold"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(26-32)% increased Magnitude of Ailments you inflict"
+    ],
+    "fists": [
+      "+(26-40) to Ailment Threshold",
+      "(21-35)% increased Elemental Ailment Threshold"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(20-29)% increased Magnitude of Bleeding you inflict"
+    ],
+    "fists": [
+      "Enemies you kill have a (10-30)% chance to explode, dealing a tenth of their maximum Life as Physical damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(30-42)% increased Magnitude of Bleeding you inflict"
+    ],
+    "fists": [
+      "Enemies you kill have a (31-50)% chance to explode, dealing a tenth of their maximum Life as Physical damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Damaging Ailments deal damage (8-13)% faster"
+    ],
+    "fists": [
+      "Enemies take (5-10)% increased Damage for each Elemental Ailment type among",
+      "your Ailments on them"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Damaging Ailments deal damage (14-20)% faster"
+    ],
+    "fists": [
+      "Enemies take (11-15)% increased Damage for each Elemental Ailment type among",
+      "your Ailments on them"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(20-34)% increased Ignite Magnitude"
+    ],
+    "fists": [
+      "Enemies killed by your Hits are destroyed",
+      "Burning Enemies you kill have a (10-30)% chance to Explode, dealing a",
+      "tenth of their maximum Life as Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(35-50)% increased Ignite Magnitude"
+    ],
+    "fists": [
+      "Enemies killed by your Hits are destroyed",
+      "Burning Enemies you kill have a (31-50)% chance to Explode, dealing a",
+      "tenth of their maximum Life as Fire Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(20-29)% increased Magnitude of Poison you inflict"
+    ],
+    "fists": [
+      "Enemies you kill have a (9-14)% chance to explode, dealing a quarter of their maximum Life as Chaos damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(30-42)% increased Magnitude of Poison you inflict"
+    ],
+    "fists": [
+      "Enemies you kill have a (15-20)% chance to explode, dealing a quarter of their maximum Life as Chaos damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(11-32) to Accuracy Rating"
+    ],
+    "fists": [
+      "(12-14)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(33-60) to Accuracy Rating"
+    ],
+    "fists": [
+      "(15-17)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(61-84) to Accuracy Rating"
+    ],
+    "fists": [
+      "(18-20)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(85-123) to Accuracy Rating"
+    ],
+    "fists": [
+      "(21-23)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(124-167) to Accuracy Rating"
+    ],
+    "fists": [
+      "(24-26)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(168-236) to Accuracy Rating"
+    ],
+    "fists": [
+      "(27-29)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(237-346) to Accuracy Rating"
+    ],
+    "fists": [
+      "(30-32)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(347-450) to Accuracy Rating"
+    ],
+    "fists": [
+      "(33-35)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(451-550) to Accuracy Rating"
+    ],
+    "fists": [
+      "(36-38)% chance to Blind Enemies on Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(10-19) to maximum Life"
+    ],
+    "fists": [
+      "5% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(150-174) to maximum Life"
+    ],
+    "fists": [
+      "14% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(175-189) to maximum Life"
+    ],
+    "fists": [
+      "15% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(190-199) to maximum Life"
+    ],
+    "fists": [
+      "16% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(200-214) to maximum Life"
+    ],
+    "fists": [
+      "17% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(20-29) to maximum Life"
+    ],
+    "fists": [
+      "6% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(30-39) to maximum Life"
+    ],
+    "fists": [
+      "7% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(40-59) to maximum Life"
+    ],
+    "fists": [
+      "8% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(60-69) to maximum Life"
+    ],
+    "fists": [
+      "9% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(70-84) to maximum Life"
+    ],
+    "fists": [
+      "10% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(85-99) to maximum Life"
+    ],
+    "fists": [
+      "11% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(100-119) to maximum Life"
+    ],
+    "fists": [
+      "12% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(120-149) to maximum Life"
+    ],
+    "fists": [
+      "13% less damage taken while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(10-14) to maximum Mana"
+    ],
+    "fists": [
+      "(10-11)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(15-24) to maximum Mana"
+    ],
+    "fists": [
+      "(12-13)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(25-34) to maximum Mana"
+    ],
+    "fists": [
+      "(14-15)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(35-54) to maximum Mana"
+    ],
+    "fists": [
+      "(16-17)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(55-64) to maximum Mana"
+    ],
+    "fists": [
+      "(18-19)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(65-79) to maximum Mana"
+    ],
+    "fists": [
+      "(20-21)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(80-89) to maximum Mana"
+    ],
+    "fists": [
+      "(22-23)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(90-104) to maximum Mana"
+    ],
+    "fists": [
+      "(24-25)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(105-124) to maximum Mana"
+    ],
+    "fists": [
+      "(26-27)% more Attack damage while on Low Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-26)% increased Armour and Energy Shield"
+    ],
+    "fists": [
+      "(7-8)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-42)% increased Armour and Energy Shield"
+    ],
+    "fists": [
+      "(9-10)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(43-55)% increased Armour and Energy Shield"
+    ],
+    "fists": [
+      "(11-12)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(56-67)% increased Armour and Energy Shield"
+    ],
+    "fists": [
+      "(13-14)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(68-79)% increased Armour and Energy Shield"
+    ],
+    "fists": [
+      "(15-16)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(80-91)% increased Armour and Energy Shield"
+    ],
+    "fists": [
+      "(17-18)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(92-100)% increased Armour and Energy Shield"
+    ],
+    "fists": [
+      "(19-20)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-26)% increased Armour and Evasion"
+    ],
+    "fists": [
+      "(7-8)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-42)% increased Armour and Evasion"
+    ],
+    "fists": [
+      "(9-10)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(43-55)% increased Armour and Evasion"
+    ],
+    "fists": [
+      "(11-12)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(56-67)% increased Armour and Evasion"
+    ],
+    "fists": [
+      "(13-14)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(68-79)% increased Armour and Evasion"
+    ],
+    "fists": [
+      "(15-16)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(80-91)% increased Armour and Evasion"
+    ],
+    "fists": [
+      "(17-18)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(92-100)% increased Armour and Evasion"
+    ],
+    "fists": [
+      "(19-20)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-26)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(7-8)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-42)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(9-10)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(43-55)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(11-12)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(56-67)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(13-14)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(68-79)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(15-16)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(80-91)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(17-18)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(92-100)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(19-20)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(101-110)% increased Armour, Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(21-22)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(10-17) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(18-24) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(25-30) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(31-35) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(36-41) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(42-47) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(48-60) to maximum Energy Shield"
+    ],
+    "fists": [
+      "Has +4 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-26)% increased Energy Shield"
+    ],
+    "fists": [
+      "(7-8)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-42)% increased Energy Shield"
+    ],
+    "fists": [
+      "(9-10)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(43-55)% increased Energy Shield"
+    ],
+    "fists": [
+      "(11-12)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(56-67)% increased Energy Shield"
+    ],
+    "fists": [
+      "(13-14)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(68-79)% increased Energy Shield"
+    ],
+    "fists": [
+      "(15-16)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(80-91)% increased Energy Shield"
+    ],
+    "fists": [
+      "(17-18)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(92-100)% increased Energy Shield"
+    ],
+    "fists": [
+      "(19-20)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-26)% increased Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(7-8)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-42)% increased Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(9-10)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(43-55)% increased Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(11-12)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(56-67)% increased Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(13-14)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(68-79)% increased Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(15-16)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(80-91)% increased Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(17-18)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(92-100)% increased Evasion and Energy Shield"
+    ],
+    "fists": [
+      "(19-20)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(11-18) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(19-46) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(47-66) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(67-87) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(88-116) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(117-146) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(147-176) to Evasion Rating"
+    ],
+    "fists": [
+      "Has +4 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-26)% increased Evasion Rating"
+    ],
+    "fists": [
+      "(7-8)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-42)% increased Evasion Rating"
+    ],
+    "fists": [
+      "(9-10)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(43-55)% increased Evasion Rating"
+    ],
+    "fists": [
+      "(11-12)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(56-67)% increased Evasion Rating"
+    ],
+    "fists": [
+      "(13-14)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(68-79)% increased Evasion Rating"
+    ],
+    "fists": [
+      "(15-16)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(80-91)% increased Evasion Rating"
+    ],
+    "fists": [
+      "(17-18)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(92-100)% increased Evasion Rating"
+    ],
+    "fists": [
+      "(19-20)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(16-27) to Armour"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(28-56) to Armour"
+    ],
+    "fists": [
+      "Has +1 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(57-77) to Armour"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(78-98) to Armour"
+    ],
+    "fists": [
+      "Has +2 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(99-127) to Armour"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(128-159) to Armour"
+    ],
+    "fists": [
+      "Has +3 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "+(160-190) to Armour"
+    ],
+    "fists": [
+      "Has +4 to Evasion Rating per player level",
+      "Has +1 to maximum Energy Shield per player level"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-26)% increased Armour"
+    ],
+    "fists": [
+      "(7-8)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(27-42)% increased Armour"
+    ],
+    "fists": [
+      "(9-10)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(43-55)% increased Armour"
+    ],
+    "fists": [
+      "(11-12)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(56-67)% increased Armour"
+    ],
+    "fists": [
+      "(13-14)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(68-79)% increased Armour"
+    ],
+    "fists": [
+      "(15-16)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(80-91)% increased Armour"
+    ],
+    "fists": [
+      "(17-18)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(92-100)% increased Armour"
+    ],
+    "fists": [
+      "(19-20)% more Global Evasion Rating and Energy Shield"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(25-50)% chance to Pierce an Enemy"
+    ],
+    "fists": [
+      "Projectiles Pierce an additional Target"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(15-24)% increased Effect of your Mark Skills"
+    ],
+    "fists": [
+      "(32-46)% increased Critical Hit Chance against Marked Enemies"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(25-39)% increased Effect of your Mark Skills"
+    ],
+    "fists": [
+      "(47-61)% increased Critical Hit Chance against Marked Enemies"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(11-20)% increased Projectile Damage"
+    ],
+    "fists": [
+      "Melee Attacks fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-30)% increased Projectile Damage"
+    ],
+    "fists": [
+      "Melee Attacks fire 2 additional Projectiles"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(31-40)% increased Projectile Damage"
+    ],
+    "fists": [
+      "Melee Attacks fire 3 additional Projectiles"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(11-20)% increased Projectile Speed"
+    ],
+    "fists": [
+      "(1-2)% increased Projectile Damage per Power Charge"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(21-30)% increased Projectile Speed"
+    ],
+    "fists": [
+      "(3-4)% increased Projectile Damage per Power Charge"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(31-40)% increased Projectile Speed"
+    ],
+    "fists": [
+      "(5-6)% increased Projectile Damage per Power Charge"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(20-40)% increased effect of Arcane Surge on you"
+    ],
+    "fists": [
+      "Gain (16-24) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Meta Skills gain 25% increased Energy while on Full Mana"
+    ],
+    "fists": [
+      "(25-45)% of Damage taken Recouped as Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "25% increased Mana Cost Efficiency"
+    ],
+    "fists": [
+      "(15-40)% reduced Mana Cost of Attacks"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "Leech (4-6)% of Physical Attack Damage as Mana"
+    ],
+    "fists": [
+      "Recover (2-6)% of your maximum Mana when an Enemy dies in your Presence"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(10-15)% of Maximum Life Converted to Energy Shield"
+    ],
+    "fists": [
+      "(20-30)% increased Attack Damage while on Low Life"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(10-20)% increased maximum Mana"
+    ],
+    "fists": [
+      "+(36-42) to maximum Mana",
+      "(15-35)% increased Attack Damage"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(20-30)% increased Cost Efficiency"
+    ],
+    "fists": [
+      "Non-Channelling Skills Cost (-8--3) Mana"
+    ]
+  },
+  {
+    "type": "Prefix",
+    "original": [
+      "(25-50)% of Spell Mana Cost Converted to Life Cost"
+    ],
+    "fists": [
+      "Attacks have added Physical damage equal to (1-3)% of maximum Life"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(13-17)% to Fire and Chaos Resistances"
+    ],
+    "fists": [
+      "+(2-3)% to Maximum Fire Resistance",
+      "+(13-17)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(9-15) to Strength and Intelligence"
+    ],
+    "fists": [
+      "(7-9)% increased Strength and Intelligence"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(13-17)% to Cold and Chaos Resistances"
+    ],
+    "fists": [
+      "+(2-3)% to Maximum Cold Resistance",
+      "+(13-17)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(9-15) to Dexterity and Intelligence"
+    ],
+    "fists": [
+      "(7-9)% increased Dexterity and Intelligence"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(13-17)% to Lightning and Chaos Resistances"
+    ],
+    "fists": [
+      "+(2-3)% to Maximum Lightning Resistance",
+      "+(13-17)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(9-15) to Strength and Dexterity"
+    ],
+    "fists": [
+      "(7-9)% increased Strength and Dexterity"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(6-10)% increased Mana Cost Efficiency"
+    ],
+    "fists": [
+      "(6-10)% increased Reservation Efficiency of Skills"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(12-20)% increased Area of Effect of Curses"
+    ],
+    "fists": [
+      "Mark Skills have (15-25)% increased Use Speed"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-20)% chance to Daze on Hit"
+    ],
+    "fists": [
+      "Gain (11-15)% of Physical Damage as Extra Cold Damage against Dazed Enemies"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-20)% increased Immobilisation buildup"
+    ],
+    "fists": [
+      "(26-35)% increased Damage against Immobilised Enemies"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(8-15)% of Leech is Instant"
+    ],
+    "fists": [
+      "Life Leech can Overflow Maximum Life"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-15)% chance to Gain Arcane Surge when you deal a Critical Hit"
+    ],
+    "fists": [
+      "(5-10)% chance to gain a Power Charge on Critical Hit"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(8-15)% increased Cast Speed when on Full Life"
+    ],
+    "fists": [
+      "(17-23)% increased Attack Speed when on Full Life"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-20)% increased Magnitude of Ailments you inflict"
+    ],
+    "fists": [
+      "(20-35)% increased Magnitude of Damaging Ailments you inflict with Critical Hits"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-30)% increased chance to inflict Bleeding"
+    ],
+    "fists": [
+      "Chance to inflict Bleeding is calculated from your base chance to Poison instead"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(8-12)% increased Skill Speed if you've consumed a Frenzy Charge Recently"
+    ],
+    "fists": [
+      "(13-17)% increased Attack Speed if you haven't been Hit Recently"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(15-25)% chance for Attack Hits to apply Incision"
+    ],
+    "fists": [
+      "Attack Hits Aggravate any Bleeding on targets which is older than (3-4) seconds"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-30)% increased chance to Poison"
+    ],
+    "fists": [
+      "Chance to Poison is calculated from your base chance to inflict Bleeding instead"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-15)% increased Area of Effect for Attacks"
+    ],
+    "fists": [
+      "1% increased Area of Effect for Attacks per 10 Intelligence"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(9-12)% increased Cast Speed"
+    ],
+    "fists": [
+      "(10-30)% chance to gain a Power Charge when you Stun"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-25)% increased Duration of Damaging Ailments on Enemies"
+    ],
+    "fists": [
+      "(15-25)% increased Magnitude of Damaging Ailments you inflict with Critical Hits"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Damage Penetrates (9-15)% Elemental Resistances"
+    ],
+    "fists": [
+      "+(20-30)% to all Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Remnants can be collected from (35-50)% further away"
+    ],
+    "fists": [
+      "(17-23)% chance for Remnants you pick up to count as picking up an additional Remnant"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(14-19)% of Armour also applies to Elemental Damage"
+    ],
+    "fists": [
+      "+(10-12)% to all Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(20-25)% of Armour also applies to Elemental Damage"
+    ],
+    "fists": [
+      "+(13-15)% to all Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(26-31)% of Armour also applies to Elemental Damage"
+    ],
+    "fists": [
+      "+(16-18)% to all Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(32-37)% of Armour also applies to Elemental Damage"
+    ],
+    "fists": [
+      "+(19-21)% to all Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(38-43)% of Armour also applies to Elemental Damage"
+    ],
+    "fists": [
+      "+(22-24)% to all Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(4-7)% to Chaos Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Chaos Resistance",
+      "+(6-9)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(8-11)% to Chaos Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Chaos Resistance",
+      "+(10-13)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(12-15)% to Chaos Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Chaos Resistance",
+      "+(14-17)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(16-19)% to Chaos Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Chaos Resistance",
+      "+(18-21)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(20-23)% to Chaos Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Chaos Resistance",
+      "+(22-25)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(24-27)% to Chaos Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Chaos Resistance",
+      "+(22-25)% to Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(6-10)% to Cold Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Cold Resistance",
+      "+(11-15)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(11-15)% to Cold Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Cold Resistance",
+      "+(16-20)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(16-20)% to Cold Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Cold Resistance",
+      "+(21-25)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(21-25)% to Cold Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Cold Resistance",
+      "+(21-25)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(26-30)% to Cold Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Cold Resistance",
+      "+(26-30)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(31-35)% to Cold Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Cold Resistance",
+      "+(31-35)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(36-40)% to Cold Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Cold Resistance",
+      "+(36-40)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(41-45)% to Cold Resistance"
+    ],
+    "fists": [
+      "+3% to Maximum Cold Resistance",
+      "+(36-40)% to Cold Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-14)% increased Critical Damage Bonus"
+    ],
+    "fists": [
+      "+(0.5-1)% to Critical Hit Chance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(15-19)% increased Critical Damage Bonus"
+    ],
+    "fists": [
+      "+(1.1-1.5)% to Critical Hit Chance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-24)% increased Critical Damage Bonus"
+    ],
+    "fists": [
+      "+(1.6-2)% to Critical Hit Chance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(25-29)% increased Critical Damage Bonus"
+    ],
+    "fists": [
+      "+(2.1-2.5)% to Critical Hit Chance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(30-34)% increased Critical Damage Bonus"
+    ],
+    "fists": [
+      "+(2.5-3)% to Critical Hit Chance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-19)% increased Duration of Damaging Ailments on Enemies"
+    ],
+    "fists": [
+      "(10-22)% increased Duration of Ailments on Enemies"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-30)% increased Duration of Damaging Ailments on Enemies"
+    ],
+    "fists": [
+      "(23-37)% increased Duration of Ailments on Enemies"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(15-21)% increased Curse Magnitudes"
+    ],
+    "fists": [
+      "You can apply an additional Curse"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(22-29)% increased Curse Magnitudes"
+    ],
+    "fists": [
+      "You can apply an additional Curse",
+      "(5-15)% increased Curse Magnitudes"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-34)% increased Exposure Effect"
+    ],
+    "fists": [
+      "Damage Penetrates (4-8)% Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(35-50)% increased Exposure Effect"
+    ],
+    "fists": [
+      "Damage Penetrates (9-15)% Elemental Resistances"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-30)% faster Curse Activation"
+    ],
+    "fists": [
+      "Gain (1-10) Mana per Cursed Enemy Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(50-99)% increased Curse Duration"
+    ],
+    "fists": [
+      "Gain (1-10) Life per Cursed Enemy Hit with Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(30-40)% increased amount of Life Leeched"
+    ],
+    "fists": [
+      "Leech (7-12)% of Physical Attack Damage as Life"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(15-24)% increased Withered Magnitude"
+    ],
+    "fists": [
+      "Damage with Weapons Penetrates (5-9)% Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(25-35)% increased Withered Magnitude"
+    ],
+    "fists": [
+      "Damage with Weapons Penetrates (10-17)% Chaos Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(5-8) to Dexterity"
+    ],
+    "fists": [
+      "+(15-18)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(9-12) to Dexterity"
+    ],
+    "fists": [
+      "+(19-22)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(13-16) to Dexterity"
+    ],
+    "fists": [
+      "+(23-26)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(17-20) to Dexterity"
+    ],
+    "fists": [
+      "+(27-30)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(21-24) to Dexterity"
+    ],
+    "fists": [
+      "+(31-35)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(25-27) to Dexterity"
+    ],
+    "fists": [
+      "+(36-40)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(28-30) to Dexterity"
+    ],
+    "fists": [
+      "+(41-45)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(31-33) to Dexterity"
+    ],
+    "fists": [
+      "+(46-50)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(34-36) to Dexterity"
+    ],
+    "fists": [
+      "+(51-60)% Surpassing chance to fire an additional Projectile"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(5-8)% increased Energy Shield Recharge Rate"
+    ],
+    "fists": [
+      "(26-30)% faster start of Energy Shield Recharge"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(9-11)% increased Energy Shield Recharge Rate"
+    ],
+    "fists": [
+      "(31-35)% faster start of Energy Shield Recharge"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(12-15)% increased Energy Shield Recharge Rate"
+    ],
+    "fists": [
+      "(36-40)% faster start of Energy Shield Recharge"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(16-19)% increased Energy Shield Recharge Rate"
+    ],
+    "fists": [
+      "(41-45)% faster start of Energy Shield Recharge"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-23)% increased Energy Shield Recharge Rate"
+    ],
+    "fists": [
+      "(46-50)% faster start of Energy Shield Recharge"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(24-27)% increased Energy Shield Recharge Rate"
+    ],
+    "fists": [
+      "(51-55)% faster start of Energy Shield Recharge"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-15)% increased Quantity of Gold Dropped by Slain Enemies"
+    ],
+    "fists": [
+      "Charms gain (0.13-0.27) charges per Second"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(26-30)% of Lightning Damage taken Recouped as Life"
+    ],
+    "fists": [
+      "(12-23)% of Damage taken from Deflected Hits Recouped as Life"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "60% increased effect of Socketed Augment Items"
+    ],
+    "fists": [
+      "Life Flasks gain (0.13-0.27) charges per Second",
+      "Mana Flasks gain (0.13-0.27) charges per Second"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain Deflection Rating equal to (8-11)% of Evasion Rating"
+    ],
+    "fists": [
+      "Prevent +3% of Damage from Deflected Hits"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain Deflection Rating equal to (12-14)% of Evasion Rating"
+    ],
+    "fists": [
+      "Prevent +4% of Damage from Deflected Hits"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain Deflection Rating equal to (15-17)% of Evasion Rating"
+    ],
+    "fists": [
+      "Prevent +5% of Damage from Deflected Hits"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain Deflection Rating equal to (18-20)% of Evasion Rating"
+    ],
+    "fists": [
+      "Prevent +6% of Damage from Deflected Hits"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "fists": [
+      "Prevent +7% of Damage from Deflected Hits"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(6-10)% to Fire Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Fire Resistance",
+      "+(11-15)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(11-15)% to Fire Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Fire Resistance",
+      "+(16-20)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(16-20)% to Fire Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Fire Resistance",
+      "+(21-25)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(21-25)% to Fire Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Fire Resistance",
+      "+(21-25)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(26-30)% to Fire Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Fire Resistance",
+      "+(26-30)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(31-35)% to Fire Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Fire Resistance",
+      "+(31-35)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(36-40)% to Fire Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Fire Resistance",
+      "+(36-40)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(41-45)% to Fire Resistance"
+    ],
+    "fists": [
+      "+3% to Maximum Fire Resistance",
+      "+(36-40)% to Fire Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+1 to Level of all Melee Skills"
+    ],
+    "fists": [
+      "+(10-12)% to Quality of all Skills"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+2 to Level of all Melee Skills"
+    ],
+    "fists": [
+      "+1 to Level of all Melee Skills",
+      "+(10-12)% to Quality of all Skills"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(5-7)% increased Attack Speed"
+    ],
+    "fists": [
+      "(8-12)% chance to gain Onslaught for 4 seconds on Hit"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(8-10)% increased Attack Speed"
+    ],
+    "fists": [
+      "(14-18)% chance to gain Onslaught for 4 seconds on Hit"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(11-13)% increased Attack Speed"
+    ],
+    "fists": [
+      "(20-24)% chance to gain Onslaught for 4 seconds on Hit"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(14-16)% increased Attack Speed"
+    ],
+    "fists": [
+      "(26-30)% chance to gain Onslaught for 4 seconds on Hit"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(5-8) to Intelligence"
+    ],
+    "fists": [
+      "(5-8)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(9-12) to Intelligence"
+    ],
+    "fists": [
+      "(9-12)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(13-16) to Intelligence"
+    ],
+    "fists": [
+      "(13-16)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(17-20) to Intelligence"
+    ],
+    "fists": [
+      "(17-20)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(21-24) to Intelligence"
+    ],
+    "fists": [
+      "(21-24)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(25-27) to Intelligence"
+    ],
+    "fists": [
+      "(25-28)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(28-30) to Intelligence"
+    ],
+    "fists": [
+      "(29-32)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(31-33) to Intelligence"
+    ],
+    "fists": [
+      "10% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(6-10)% increased Rarity of Items found"
+    ],
+    "fists": [
+      "(15-20)% increased Quantity of Gold Dropped by Slain Enemies"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(11-14)% increased Rarity of Items found"
+    ],
+    "fists": [
+      "(21-25)% increased Quantity of Gold Dropped by Slain Enemies"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(15-18)% increased Rarity of Items found"
+    ],
+    "fists": [
+      "(26-30)% increased Quantity of Gold Dropped by Slain Enemies"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (4-6) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 1% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (7-9) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 1% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (10-18) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 1% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (19-28) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (29-40) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (41-53) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (54-68) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (69-84) Life per enemy killed"
+    ],
+    "fists": [
+      "Recover 3% of maximum Life on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain 2 Life per Enemy Hit with Attacks"
+    ],
+    "fists": [
+      "Gain (4-6) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain 3 Life per Enemy Hit with Attacks"
+    ],
+    "fists": [
+      "Gain (7-9) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain 4 Life per Enemy Hit with Attacks"
+    ],
+    "fists": [
+      "Gain (10-12) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain 5 Life per Enemy Hit with Attacks"
+    ],
+    "fists": [
+      "Gain (13-15) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (5-5.9)% of Physical Attack Damage as Life"
+    ],
+    "fists": [
+      "Leech (8-8.9)% of Physical Attack Damage as Life",
+      "Leech Life (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (6-6.9)% of Physical Attack Damage as Life"
+    ],
+    "fists": [
+      "Leech (9-10.9)% of Physical Attack Damage as Life",
+      "Leech Life (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (7-7.9)% of Physical Attack Damage as Life"
+    ],
+    "fists": [
+      "Leech (11-11.9)% of Physical Attack Damage as Life",
+      "Leech Life (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (8-8.9)% of Physical Attack Damage as Life"
+    ],
+    "fists": [
+      "Leech (12-13.9)% of Physical Attack Damage as Life",
+      "Leech Life (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (9-9.9)% of Physical Attack Damage as Life"
+    ],
+    "fists": [
+      "Leech (14-15)% of Physical Attack Damage as Life",
+      "Leech Life (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(6-10)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Lightning Resistance",
+      "+(11-15)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(11-15)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Lightning Resistance",
+      "+(16-20)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(16-20)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+1% to Maximum Lightning Resistance",
+      "+(21-25)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(21-25)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Lightning Resistance",
+      "+(21-25)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(26-30)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Lightning Resistance",
+      "+(26-30)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(31-35)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Lightning Resistance",
+      "+(31-35)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(36-40)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+2% to Maximum Lightning Resistance",
+      "+(36-40)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(41-45)% to Lightning Resistance"
+    ],
+    "fists": [
+      "+3% to Maximum Lightning Resistance",
+      "+(36-40)% to Lightning Resistance"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (2-3) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 1% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (4-5) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 1% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (6-9) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 1% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (10-14) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (15-20) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (21-27) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (28-35) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 2% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Gain (36-45) Mana per enemy killed"
+    ],
+    "fists": [
+      "Recover 3% of maximum Mana on Kill"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (4-4.9)% of Physical Attack Damage as Mana"
+    ],
+    "fists": [
+      "Leech (6-7.9)% of Physical Attack Damage as Mana",
+      "Leech Mana (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (5-5.9)% of Physical Attack Damage as Mana"
+    ],
+    "fists": [
+      "Leech (8-8.9)% of Physical Attack Damage as Mana",
+      "Leech Mana (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (6-6.9)% of Physical Attack Damage as Mana"
+    ],
+    "fists": [
+      "Leech (9-10.9)% of Physical Attack Damage as Mana",
+      "Leech Mana (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (7-7.9)% of Physical Attack Damage as Mana"
+    ],
+    "fists": [
+      "Leech (11-11.9)% of Physical Attack Damage as Mana",
+      "Leech Mana (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Leech (8-8.9)% of Physical Attack Damage as Mana"
+    ],
+    "fists": [
+      "Leech (12-13)% of Physical Attack Damage as Mana",
+      "Leech Mana (20-25)% slower"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Projectiles have (10-19)% chance to Chain an additional time from terrain"
+    ],
+    "fists": [
+      "Attacks Chain an additional time"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Projectiles have (20-32)% chance to Chain an additional time from terrain"
+    ],
+    "fists": [
+      "Attacks Chain 2 additional times"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Projectiles have (25-50)% chance for an additional Projectile when Forking"
+    ],
+    "fists": [
+      "Projectiles have (45-64)% chance to Fork if you've dealt a Melee Hit in the past eight seconds"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Projectiles have (51-100)% chance for an additional Projectile when Forking"
+    ],
+    "fists": [
+      "Projectiles have (65-85)% chance to Fork if you've dealt a Melee Hit in the past eight seconds"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(51-100)% chance to Pierce an Enemy"
+    ],
+    "fists": [
+      "Projectiles Pierce 2 additional Targets"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(16-21)% increased Critical Hit Chance"
+    ],
+    "fists": [
+      "Hits against you have (30-39)% reduced Critical Damage Bonus"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(22-27)% increased Critical Hit Chance"
+    ],
+    "fists": [
+      "Hits against you have (40-49)% reduced Critical Damage Bonus"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(28-34)% increased Critical Hit Chance"
+    ],
+    "fists": [
+      "Hits against you have (50-60)% reduced Critical Damage Bonus"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Mark Skills have (50-74)% increased Skill Effect Duration"
+    ],
+    "fists": [
+      "When your Marks are Consumed, they have (10-19)% chance to Mark another Enemy within 3 metres"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Mark Skills have (75-100)% increased Skill Effect Duration"
+    ],
+    "fists": [
+      "When your Marks are Consumed, they have (20-29)% chance to Mark another Enemy within 3 metres"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(1-2) to Level of all Mark Skills"
+    ],
+    "fists": [
+      "Enemies you Mark take (1-5)% increased Damage"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(3-4) to Level of all Mark Skills"
+    ],
+    "fists": [
+      "Enemies you Mark take (6-10)% increased Damage"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Mark Skills have (13-23)% increased Use Speed"
+    ],
+    "fists": [
+      "(10-19)% increased Damage with Hits against Marked Enemy"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Mark Skills have (24-39)% increased Use Speed"
+    ],
+    "fists": [
+      "(20-29)% increased Damage with Hits against Marked Enemy"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+1 to Level of all Projectile Skills"
+    ],
+    "fists": [
+      "Projectiles have (25-44)% chance to Fork"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+2 to Level of all Projectile Skills"
+    ],
+    "fists": [
+      "Projectiles have (45-65)% chance to Fork"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(23-36)% Surpassing chance to fire an additional Projectile"
+    ],
+    "fists": [
+      "Projectiles have (15-20)% chance to Shock"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(37-50)% Surpassing chance to fire an additional Projectile"
+    ],
+    "fists": [
+      "Projectiles have (21-25)% chance to Shock"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(51-66)% Surpassing chance to fire an additional Projectile"
+    ],
+    "fists": [
+      "Projectiles have (26-30)% chance to Shock"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "15% reduced Attribute Requirements"
+    ],
+    "fists": [
+      "+(5-10) to all Attributes"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "20% reduced Attribute Requirements"
+    ],
+    "fists": [
+      "+(11-15) to all Attributes"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "25% reduced Attribute Requirements"
+    ],
+    "fists": [
+      "+(16-20) to all Attributes"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "30% reduced Attribute Requirements"
+    ],
+    "fists": [
+      "+(21-25) to all Attributes"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "35% reduced Attribute Requirements"
+    ],
+    "fists": [
+      "+(26-30) to all Attributes"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(5-8) to Strength"
+    ],
+    "fists": [
+      "(7-10)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(9-12) to Strength"
+    ],
+    "fists": [
+      "(11-13)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(13-16) to Strength"
+    ],
+    "fists": [
+      "(14-16)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(17-20) to Strength"
+    ],
+    "fists": [
+      "(17-19)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(21-24) to Strength"
+    ],
+    "fists": [
+      "(20-22)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(25-27) to Strength"
+    ],
+    "fists": [
+      "(23-25)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(28-30) to Strength"
+    ],
+    "fists": [
+      "(26-28)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(31-33) to Strength"
+    ],
+    "fists": [
+      "(29-32)% increased Area of Effect for Attacks"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(100-150) to maximum Energy Shield"
+    ],
+    "fists": [
+      "(7-16)% increased maximum Energy Shield"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(30-50)% increased chance to inflict Bleeding"
+    ],
+    "fists": [
+      "Attacks have (35-80)% chance to cause Bleeding"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-40)% increased Magnitude of Chill you inflict"
+    ],
+    "fists": [
+      "(20-50)% chance to Avoid being Chilled"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-20)% increased Curse Magnitudes"
+    ],
+    "fists": [
+      "(20-30)% reduced effect of Curses on you"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-15)% increased Damage per Curse on you"
+    ],
+    "fists": [
+      "(10-20)% increased Damage with Hits per Curse on Enemy"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-20)% increased Freeze Duration on Enemies"
+    ],
+    "fists": [
+      "Regenerate (5-15)% of maximum Life per second while Frozen"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(5-10)% Global chance to Blind Enemies on Hit"
+    ],
+    "fists": [
+      "Dazes on Hit"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+1 to Level of all Chaos Skills"
+    ],
+    "fists": [
+      "Attacks have added Chaos damage equal to (1-3)% of maximum Life"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-40)% increased Ignite Magnitude"
+    ],
+    "fists": [
+      "(20-50)% chance to Avoid being Ignited"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "25% increased Attack Speed"
+    ],
+    "fists": [
+      "Attack Skills have Added Lightning Damage equal to (1-5)% of maximum Mana"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(5-10)% increased maximum Life"
+    ],
+    "fists": [
+      "+(205-221) to maximum Life"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-25)% increased amount of Life Leeched"
+    ],
+    "fists": [
+      "Life Leech effects are not removed when Unreserved Life is Filled"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "+(8-10) maximum Rage if you've used a Skill that Requires Glory in the past 20 seconds"
+    ],
+    "fists": [
+      "Gain (1-3) Rage on Melee Hit"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(12-16)% chance that if you would gain Rage on Hit, you instead gain up to your maximum Rage"
+    ],
+    "fists": [
+      "Gain 1% of Physical Damage as Extra Fire Damage per Rage"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(30-40)% increased Duration of Poisons you inflict when you've consumed a Frenzy Charge Recently"
+    ],
+    "fists": [
+      "(20-35)% increased Damage for each Poison on you up to a maximum of 75%",
+      "Poison you inflict is Reflected to you"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(10-16)% increased Magnitude of Poison you inflict"
+    ],
+    "fists": [
+      "Critical Hits Poison the enemy"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(30-60)% increased Magnitude of Poison you inflict on targets that are not Poisoned"
+    ],
+    "fists": [
+      "(10-60)% reduced Poison Duration on you"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "Recover (0.5-1)% of maximum Life per Poison affecting Enemies you Kill"
+    ],
+    "fists": [
+      "+(12-23)% to Chaos Resistance per Poison on you",
+      "Poison you inflict is Reflected to you"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(40-60)% reduced Poison Duration on you"
+    ],
+    "fists": [
+      "(17-25)% increased Movement Speed for each Poison on you up to a maximum of 50%",
+      "Poison you inflict is Reflected to you"
+    ]
+  },
+  {
+    "type": "Suffix",
+    "original": [
+      "(20-40)% increased Magnitude of Shock you inflict"
+    ],
+    "fists": [
+      "(20-50)% chance to Avoid being Shocked"
+    ]
+  }
+]

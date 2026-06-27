@@ -1,0 +1,26 @@
+{
+  "name": "poe2-fists-of-stone-converter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:modifiers && npm run build:app",
+    "build:app": "tsc --noEmit && vite build",
+    "build:modifiers": "tsx scripts/build-modifiers.ts",
+    "dev": "npm run build:modifiers && vite",
+    "preview": "vite preview",
+    "test": "tsx scripts/test-convert.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0"
+  }
+}

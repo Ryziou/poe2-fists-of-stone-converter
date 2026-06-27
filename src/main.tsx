@@ -18,7 +18,7 @@ function App() {
   const [copyLabel, setCopyLabel] = useState("Copy output");
 
   useEffect(() => {
-    fetch("/modifiers.json")
+    fetch(`${import.meta.env.BASE_URL}modifiers.json`)
       .then((res) => res.json())
       .then((data: ModifierRule[]) => setRules(data));
   }, []);

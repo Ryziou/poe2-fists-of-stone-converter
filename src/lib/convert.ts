@@ -40,7 +40,7 @@ export function convertItem(text: string, rules: ModifierRule[]): ConvertResult 
     return {
       text: "",
       unmatched: [],
-      error: `Only rare gloves are supported — uniques and other rarities are not converted. This item is: ${kind || "unknown"}.`,
+      error: `Only rare gloves are supported. Uniques and other rarities are not converted. This item is: ${kind || "unknown"}.`,
     };
   }
 

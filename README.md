@@ -1,6 +1,6 @@
 # POE2 Fists of Stone Converter
 
-Paste trade-site or in-game glove text and convert modifiers to the Fists of Stone version for Path of Building. Only **rare gloves** are supported — not uniques, magic, or normal items.
+Paste trade-site or in-game glove text and convert modifiers to the Fists of Stone version for Path of Building. Only **rare gloves** are supported, not uniques, magic, or normal items.
 
 I made this quickly as I wanted to convert gloves to fists of stone without opening multiple pages and attempting to convert it slowly.
 

@@ -71,9 +71,9 @@ function App() {
       </p>
 
       <p className="notice">
-        Only rare gloves are supported — not uniques, magic, or normal items.
-        When a Fists modifier has a range like (21–23)%, the output uses the
-        lowest roll — PoB may interpret ranges differently on your end.
+        Only rare gloves are supported, not uniques, magic, or normal items.
+        When a Fists modifier has a range like (21-23)%, the output uses the
+        lowest roll. PoB may interpret ranges differently on your end.
       </p>
 
       <div className="grid">
@@ -119,7 +119,7 @@ function App() {
         <div id="warnings">
           <strong>Unmatched modifiers</strong>
           <p className="warn-detail">
-            Fix or remove these before copying — they are omitted from the output
+            Fix or remove these before copying. They are omitted from the output
             so Path of Building is not given invalid lines.
           </p>
           <ul>

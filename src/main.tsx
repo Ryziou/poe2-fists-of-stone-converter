@@ -10,6 +10,25 @@ import { convertItem } from "./lib/convert";
 import type { ModifierRule } from "./lib/types";
 import "./App.css";
 
+const GITHUB_REPO = "https://github.com/Ryziou/poe2-fists-of-stone-converter";
+
+function GitHubIcon() {
+  return (
+    <svg
+      className="icon-github"
+      viewBox="0 0 16 16"
+      width="18"
+      height="18"
+      aria-hidden="true"
+    >
+      <path
+        fill="currentColor"
+        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+      />
+    </svg>
+  );
+}
+
 function App() {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
@@ -129,6 +148,71 @@ function App() {
           </ul>
         </div>
       )}
+      <details className="help">
+        <summary>How to use this tool</summary>
+        <div className="help-body">
+          <ol>
+            <li>
+              Find a <strong>rare glove</strong> on the POE2 trade site or in
+              your stash.
+            </li>
+            <li>
+              Copy the full item text. On the trade site, use your copy script
+              or the listing copy button. In-game, hover the item and press
+              Ctrl+C.
+            </li>
+            <li>
+              Paste into the left box and click <strong>Convert</strong> (or
+              press Ctrl+Enter).
+            </li>
+            <li>
+              Check the output on the right. If you see unmatched modifiers,
+              the item cannot be copied safely yet. Those lines are left out of
+              the output.
+            </li>
+            <li>
+              When copy is enabled, click <strong>Copy output</strong> and
+              paste the result into Path of Building as a custom item.
+            </li>
+          </ol>
+          <h3>What is supported</h3>
+          <ul>
+            <li>Rare gloves only (not uniques, magic, or normal items)</li>
+            <li>Trade site paste and in-game copy formats</li>
+            <li>
+              Modifier ranges in the output use the lowest roll, e.g. (21-23)%
+              becomes 21%
+            </li>
+          </ul>
+          <h3>Common issues</h3>
+          <ul>
+            <li>
+              <strong>Cannot convert / wrong item type:</strong> Only rare
+              gloves work. Other item classes are rejected.
+            </li>
+            <li>
+              <strong>Unmatched modifiers:</strong> A mod on the glove is not in
+              the conversion table yet. Open an issue on GitHub with the pasted
+              item text.
+            </li>
+            <li>
+              <strong>Copy button disabled:</strong> Fix errors or unmatched
+              mods first, then convert again.
+            </li>
+          </ul>
+        </div>
+      </details>
+      <footer className="footer">
+        <a
+          className="footer-link footer-github"
+          href={GITHUB_REPO}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHubIcon />
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }

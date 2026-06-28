@@ -4,6 +4,7 @@ const SEPARATOR = "--------";
 
 const SKIP_LINE_PATTERNS = [
   /^Requires:/i,
+  /^Requirements:?$/i,
   /^Evasion Rating:/i,
   /^Energy Shield:/i,
   /^Armour:/i,
@@ -97,11 +98,21 @@ export function parseTradeItem(text: string): ParsedTradeItem {
   let itemLevel = "";
   const runes: string[] = [];
   const mods: string[] = [];
+  let inRequirementsBlock = false;
 
   const bodyStart = firstSep === -1 ? header.length : firstSep + 1;
   for (let i = bodyStart; i < lines.length; i++) {
     const line = lines[i];
-    if (line === SEPARATOR) continue;
+    if (line === SEPARATOR) {
+      inRequirementsBlock = false;
+      continue;
+    }
+
+    if (/^Requirements:?$/i.test(line)) {
+      inRequirementsBlock = true;
+      continue;
+    }
+    if (inRequirementsBlock) continue;
 
     if (/^Item Class:/i.test(line)) itemClass = line;
     else if (isBareItemClassLine(line)) itemClass = normalizeItemClass(line);

@@ -32,8 +32,19 @@ function shouldSkipLine(line: string): boolean {
   return SKIP_LINE_PATTERNS.some((p) => p.test(line));
 }
 
+function isBareItemClassLine(line: string): boolean {
+  return /^Item Class:\s*/i.test(line) || /^Gloves$/i.test(line);
+}
+
+function normalizeItemClass(line: string): string {
+  if (/^Item Class:/i.test(line)) return line;
+  if (/^Gloves$/i.test(line)) return "Item Class: Gloves";
+  return line;
+}
+
 export function isGlovesItem(itemClass: string): boolean {
-  return /Item Class:\s*Gloves\b/i.test(itemClass);
+  const kind = itemClass.replace(/^Item Class:\s*/i, "").trim();
+  return /^Gloves$/i.test(kind);
 }
 
 export function isRareItem(rarity: string): boolean {
@@ -44,6 +55,7 @@ function isModLine(line: string): boolean {
   if (shouldSkipLine(line)) return false;
   if (isRuneLine(line)) return false;
   if (/^Item Class:/i.test(line)) return false;
+  if (isBareItemClassLine(line)) return false;
   if (/^Rarity:/i.test(line)) return false;
   if (/^Quality:/i.test(line)) return false;
   if (/^Sockets:/i.test(line)) return false;
@@ -72,6 +84,12 @@ export function parseTradeItem(text: string): ParsedTradeItem {
   } else if (header[0]?.startsWith("Rarity:")) {
     rarity = header[0];
     uniqueName = header[1] || "";
+    for (const line of header.slice(2)) {
+      if (isBareItemClassLine(line)) {
+        itemClass = normalizeItemClass(line);
+        break;
+      }
+    }
   }
 
   let quality = "";
@@ -86,6 +104,7 @@ export function parseTradeItem(text: string): ParsedTradeItem {
     if (line === SEPARATOR) continue;
 
     if (/^Item Class:/i.test(line)) itemClass = line;
+    else if (isBareItemClassLine(line)) itemClass = normalizeItemClass(line);
     else if (/^Rarity:/i.test(line)) rarity = line;
     else if (/^Quality:/i.test(line)) quality = line;
     else if (/^Sockets:/i.test(line)) sockets = line;

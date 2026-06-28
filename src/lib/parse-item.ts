@@ -32,6 +32,14 @@ function shouldSkipLine(line: string): boolean {
   return SKIP_LINE_PATTERNS.some((p) => p.test(line));
 }
 
+export function isGlovesItem(itemClass: string): boolean {
+  return /Item Class:\s*Gloves\b/i.test(itemClass);
+}
+
+export function isRareItem(rarity: string): boolean {
+  return /Rarity:\s*Rare\b/i.test(rarity);
+}
+
 function isModLine(line: string): boolean {
   if (shouldSkipLine(line)) return false;
   if (isRuneLine(line)) return false;

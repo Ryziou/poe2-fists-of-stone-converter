@@ -35,9 +35,19 @@ h1 {
 }
 
 .subtitle {
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.75rem;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.notice {
+  margin: 0 0 1.5rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 .grid {
@@ -104,6 +114,16 @@ button:hover {
   color: var(--accent);
 }
 
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  border-color: var(--border);
+  color: var(--text);
+}
+
 #convert {
   background: #2a2418;
   border-color: var(--accent);
@@ -118,6 +138,21 @@ button:hover {
   background: #2a2010;
   color: var(--warn);
   font-size: 0.9rem;
+}
+
+#errors {
+  padding: 0.75rem 1rem;
+  border: 1px solid #5a2020;
+  border-radius: 6px;
+  background: #2a1010;
+  color: #e87878;
+  font-size: 0.9rem;
+}
+
+#errors p,
+.warn-detail {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
 }
 
 #warnings ul {

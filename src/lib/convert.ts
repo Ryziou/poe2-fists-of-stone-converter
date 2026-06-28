@@ -1,5 +1,5 @@
 import { convertModifiers } from "./match-modifiers";
-import { parseTradeItem } from "./parse-item";
+import { isGlovesItem, isRareItem, parseTradeItem } from "./parse-item";
 import type { ConvertResult, ModifierRule } from "./types";
 
 const SEPARATOR = "--------";
@@ -16,6 +16,34 @@ function buildSection(lines: string[]): string[] {
 
 export function convertItem(text: string, rules: ModifierRule[]): ConvertResult {
   const parsed = parseTradeItem(text);
+
+  if (!parsed.itemClass) {
+    return {
+      text: "",
+      unmatched: [],
+      error:
+        "Could not find Item Class. Paste a full item from the trade site or in-game (Ctrl+C on the item).",
+    };
+  }
+
+  if (!isGlovesItem(parsed.itemClass)) {
+    const kind = parsed.itemClass.replace(/^Item Class:\s*/i, "").trim();
+    return {
+      text: "",
+      unmatched: [],
+      error: `Only gloves can be converted to Fists of Stone. This item is: ${kind || "unknown"}.`,
+    };
+  }
+
+  if (!isRareItem(parsed.rarity)) {
+    const kind = parsed.rarity.replace(/^Rarity:\s*/i, "").trim();
+    return {
+      text: "",
+      unmatched: [],
+      error: `Only rare gloves are supported — uniques and other rarities are not converted. This item is: ${kind || "unknown"}.`,
+    };
+  }
+
   const { converted, unmatched } = convertModifiers(parsed.mods, rules);
 
   const output: string[] = [];

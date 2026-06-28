@@ -20,6 +20,7 @@ export interface ParsedTradeItem {
 export interface ConvertResult {
   text: string;
   unmatched: string[];
+  error?: string;
 }
 
 export interface ConvertModifiersResult {

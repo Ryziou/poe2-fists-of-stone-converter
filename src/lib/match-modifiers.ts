@@ -17,8 +17,16 @@ export function stripModTags(line: string): string {
   return line.replace(TAG_PATTERN, "").trim();
 }
 
+/** In-game copy: "16(12-19)" → "16" so rolled values match trade-site rules. */
+export function normalizeInGameRolls(line: string): string {
+  return line.replace(
+    /(\d+(?:\.\d+)?)\([\d.]+(?:-|–|—)[\d.]+\)/g,
+    "$1"
+  );
+}
+
 export function normalizeModText(line: string): string {
-  return stripModTags(line)
+  return stripModTags(normalizeInGameRolls(line))
     .replace(/\bdamage\b/gi, "Damage")
     .replace(/\s+/g, " ")
     .trim();
@@ -131,7 +139,6 @@ export function convertModifiers(
 
     if (!matched) {
       unmatched.push(modLines[i]);
-      converted.push(`⚠ UNMATCHED: ${modLines[i]}`);
       i++;
     }
   }

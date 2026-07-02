@@ -1,6 +1,6 @@
 # POE2 Fists of Stone Converter
 
-Paste trade-site or in-game glove text and convert modifiers to the Fists of Stone version for Path of Building. Only **rare gloves** are supported, not uniques, magic, or normal items.
+Paste trade-site or in-game glove text and convert modifiers to the Fists of Stone version for Path of Building. **Rare** gloves use modifier conversion. **Unique** gloves use fixed conversions from [PoE2DB](https://poe2db.tw/us/Way_of_the_Stonefist). Magic and normal items are not supported.
 
 I made this quickly as I wanted to convert gloves to fists of stone without opening multiple pages and attempting to convert it slowly.
 
@@ -68,6 +68,22 @@ Adds 16(12-19) to 31(22-32) Physical Damage to Attacks
 ```
 </details>
 
+<details>
+<summary>Unique glove (fixed Fists output)</summary>
+
+```
+Item Class: Gloves
+Rarity: Unique
+Hand of Wisdom and Action
+Slipstrike Vest
+--------
+Quality: +20%
+...
+```
+
+The unique name is looked up in the conversion table. Original unique mods are replaced with the fixed Fists version.
+</details>
+
 ## Local development
 
 ```bash
@@ -87,5 +103,7 @@ Open the URL Vite prints (usually http://localhost:5173).
 | `npm run preview` | Preview the production build locally |
 | `npm test` | Run conversion smoke tests |
 | `npm run build:modifiers` | Regenerate `public/modifiers.json` from `modifiers.txt` |
+| `npm run build:uniques` | Regenerate `public/uniques.json` from PoE2DB |
 
 After editing `modifiers.txt`, run `npm run build:modifiers`.
+After PoE2DB updates unique conversions, run `npm run build:uniques`.

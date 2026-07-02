@@ -33,23 +33,55 @@ function shouldSkipLine(line: string): boolean {
   return SKIP_LINE_PATTERNS.some((p) => p.test(line));
 }
 
+function gloveClassKind(line: string): string {
+  return line.replace(/^Item Class:\s*/i, "").trim();
+}
+
+function isGloveClassName(line: string): boolean {
+  return /^((Vaal|Ezomyte) )?Gloves$/i.test(gloveClassKind(line));
+}
+
+function isHeaderMetaLine(line: string): boolean {
+  return (
+    /^Quality:/i.test(line) ||
+    /^Sockets:/i.test(line) ||
+    /^Item Level:/i.test(line) ||
+    /^Requires:/i.test(line) ||
+    /^Requirements:?$/i.test(line)
+  );
+}
+
+function findGloveClassLine(lines: string[]): string {
+  for (let i = lines.length - 1; i >= 0; i--) {
+    const line = lines[i];
+    if (isHeaderMetaLine(line) || /^Rarity:/i.test(line)) continue;
+    if (isBareItemClassLine(line)) return line;
+  }
+  return "";
+}
+
 function isBareItemClassLine(line: string): boolean {
-  return /^Item Class:\s*/i.test(line) || /^Gloves$/i.test(line);
+  return /^Item Class:\s*/i.test(line) || isGloveClassName(line);
 }
 
 function normalizeItemClass(line: string): string {
-  if (/^Item Class:/i.test(line)) return line;
-  if (/^Gloves$/i.test(line)) return "Item Class: Gloves";
+  if (/^Item Class:/i.test(line)) {
+    return isGloveClassName(line) ? "Item Class: Gloves" : line;
+  }
+  if (isGloveClassName(line)) return "Item Class: Gloves";
   return line;
 }
 
 export function isGlovesItem(itemClass: string): boolean {
-  const kind = itemClass.replace(/^Item Class:\s*/i, "").trim();
-  return /^Gloves$/i.test(kind);
+  return isGloveClassName(itemClass);
 }
 
 export function isRareItem(rarity: string): boolean {
   return /Rarity:\s*Rare\b/i.test(rarity);
+}
+
+export function isUniqueItem(rarity: string): boolean {
+  return /Rarity:\s*Unique\b/i.test(rarity);
 }
 
 function isModLine(line: string): boolean {
@@ -85,17 +117,26 @@ export function parseTradeItem(text: string): ParsedTradeItem {
   } else if (header[0]?.startsWith("Rarity:")) {
     rarity = header[0];
     uniqueName = header[1] || "";
-    for (const line of header.slice(2)) {
-      if (isBareItemClassLine(line)) {
-        itemClass = normalizeItemClass(line);
-        break;
-      }
+    const classLine = findGloveClassLine(header.slice(2));
+    if (classLine) itemClass = normalizeItemClass(classLine);
+  } else if (header.length >= 2) {
+    const classLine = findGloveClassLine(header);
+    if (isGloveClassName(classLine)) {
+      itemClass = normalizeItemClass(classLine);
+      uniqueName = header[0];
     }
   }
 
   let quality = "";
   let sockets = "";
   let itemLevel = "";
+
+  for (const line of header) {
+    if (/^Quality:/i.test(line)) quality = line;
+    else if (/^Sockets:/i.test(line)) sockets = line;
+    else if (/^Item Level:/i.test(line)) itemLevel = line;
+  }
+
   const runes: string[] = [];
   const mods: string[] = [];
   let inRequirementsBlock = false;
@@ -125,7 +166,10 @@ export function parseTradeItem(text: string): ParsedTradeItem {
   }
 
   return {
-    itemClass,
+    itemClass:
+      itemClass && isGlovesItem(itemClass)
+        ? normalizeItemClass(itemClass)
+        : itemClass,
     rarity,
     uniqueName,
     quality,

@@ -7,10 +7,11 @@ import {
 } from "react";
 import { createRoot } from "react-dom/client";
 import { convertItem } from "./lib/convert";
-import type { ModifierRule } from "./lib/types";
+import type { ModifierRule, UniqueRule } from "./lib/types";
 import "./App.css";
 
 const GITHUB_REPO = "https://github.com/Ryziou/poe2-fists-of-stone-converter";
+const UNIQUES_SOURCE = "https://poe2db.tw/us/Way_of_the_Stonefist";
 
 function GitHubIcon() {
   return (
@@ -34,24 +35,34 @@ function App() {
   const [output, setOutput] = useState("");
   const [unmatched, setUnmatched] = useState<string[]>([]);
   const [error, setError] = useState("");
+  const [notice, setNotice] = useState("");
   const [rules, setRules] = useState<ModifierRule[]>([]);
+  const [uniques, setUniques] = useState<UniqueRule[]>([]);
   const [rulesError, setRulesError] = useState("");
   const [copyLabel, setCopyLabel] = useState("Copy output");
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}modifiers.json`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
-      .then((data: unknown) => {
-        if (!Array.isArray(data)) throw new Error("Invalid modifiers data");
-        setRules(data as ModifierRule[]);
+    Promise.all([
+      fetch(`${import.meta.env.BASE_URL}modifiers.json`),
+      fetch(`${import.meta.env.BASE_URL}uniques.json`),
+    ])
+      .then(async ([modifiersRes, uniquesRes]) => {
+        if (!modifiersRes.ok) throw new Error(`HTTP ${modifiersRes.status}`);
+        if (!uniquesRes.ok) throw new Error(`HTTP ${uniquesRes.status}`);
+        const [modifiersData, uniquesData] = await Promise.all([
+          modifiersRes.json(),
+          uniquesRes.json(),
+        ]);
+        if (!Array.isArray(modifiersData) || !Array.isArray(uniquesData)) {
+          throw new Error("Invalid conversion data");
+        }
+        setRules(modifiersData as ModifierRule[]);
+        setUniques(uniquesData as UniqueRule[]);
         setRulesError("");
       })
       .catch(() => {
         setRulesError(
-          "Could not load modifier rules. Refresh the page or try again later."
+          "Could not load conversion rules. Refresh the page or try again later."
         );
       });
   }, []);
@@ -63,13 +74,15 @@ function App() {
       setOutput("");
       setUnmatched([]);
       setError(rulesError);
+      setNotice("");
       return;
     }
 
-    if (!rules.length) {
-      setOutput("Loading modifier rules…");
+    if (!rules.length || !uniques.length) {
+      setOutput("Loading conversion rules…");
       setUnmatched([]);
       setError("");
+      setNotice("");
       return;
     }
 
@@ -78,14 +91,16 @@ function App() {
       setOutput("");
       setUnmatched([]);
       setError("");
+      setNotice("");
       return;
     }
 
-    const result = convertItem(text, rules);
+    const result = convertItem(text, rules, uniques);
     setOutput(result.text);
     setUnmatched(result.unmatched);
     setError(result.error ?? "");
-  }, [input, rules, rulesError]);
+    setNotice(result.notice ?? "");
+  }, [input, rules, uniques, rulesError]);
 
   const handleCopy = async () => {
     if (!canCopy) return;
@@ -115,8 +130,12 @@ function App() {
       </p>
 
       <p className="notice">
-        Only rare gloves are supported, not uniques, magic, or normal items.
-        When a Fists modifier has a range like (21-23)%, the output uses the
+        Rare and unique gloves are supported, not magic or normal items. Unique
+        gloves use fixed Fists conversions from{" "}
+        <a href={UNIQUES_SOURCE} target="_blank" rel="noopener noreferrer">
+          PoE2DB
+        </a>
+        . When a Fists modifier has a range like (21-23)%, the output uses the
         lowest roll. PoB may interpret ranges differently on your end.
       </p>
 
@@ -156,6 +175,13 @@ function App() {
         <div id="errors" role="alert">
           <strong>Cannot convert</strong>
           <p>{error}</p>
+        </div>
+      )}
+
+      {notice && (
+        <div id="notices" role="status">
+          <strong>Note</strong>
+          <p>{notice}</p>
         </div>
       )}
 
@@ -202,7 +228,14 @@ function App() {
           </ol>
           <h3>What is supported</h3>
           <ul>
-            <li>Rare gloves only (not uniques, magic, or normal items)</li>
+            <li>Rare gloves (modifier-by-modifier conversion)</li>
+            <li>
+              Unique gloves (fixed output per unique, from{" "}
+              <a href={UNIQUES_SOURCE} target="_blank" rel="noopener noreferrer">
+                PoE2DB
+              </a>
+              )
+            </li>
             <li>Trade site paste and in-game copy formats</li>
             <li>
               Modifier ranges in the output use the lowest roll, e.g. (21-23)%
@@ -212,8 +245,13 @@ function App() {
           <h3>Common issues</h3>
           <ul>
             <li>
-              <strong>Cannot convert / wrong item type:</strong> Only rare
-              gloves work. Other item classes are rejected.
+              <strong>Cannot convert / wrong item type:</strong> Only glove
+              items work. Other item classes are rejected.
+            </li>
+            <li>
+              <strong>Unknown unique:</strong> The unique name was not found in
+              the table. Run <code>npm run build:uniques</code> to refresh from
+              PoE2DB, or open an issue on GitHub.
             </li>
             <li>
               <strong>Unmatched modifiers:</strong> A mod on the glove is not in

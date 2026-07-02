@@ -3,10 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run build:modifiers && npm run build:app",
+    "build": "npm run build:modifiers && npm run build:uniques && npm run build:app",
     "build:app": "tsc --noEmit && vite build",
     "build:modifiers": "tsx scripts/build-modifiers.ts",
-    "dev": "npm run build:modifiers && vite",
+    "build:uniques": "tsx scripts/build-uniques.ts",
+    "dev": "npm run build:modifiers && npm run build:uniques && vite",
     "preview": "vite preview",
     "test": "tsx scripts/test-convert.ts"
   },

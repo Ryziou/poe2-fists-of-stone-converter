@@ -17,10 +17,16 @@ export interface ParsedTradeItem {
   mods: string[];
 }
 
+export interface UniqueRule {
+  name: string;
+  fists: string[];
+}
+
 export interface ConvertResult {
   text: string;
   unmatched: string[];
   error?: string;
+  notice?: string;
 }
 
 export interface ConvertModifiersResult {

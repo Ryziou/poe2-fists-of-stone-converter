@@ -108,6 +108,7 @@ function matchesRule(rule: ModifierRule, lines: string[]): boolean {
 /** Strip PoB-style range notation for plain Path of Building import. */
 export function formatFistsLine(line: string): string {
   return line
+    .replace(/[—–]/g, "-")
     .replace(/(\d+(?:\.\d+)?)\(\d+(?:\.\d+)?-\d+(?:\.\d+)?\)/g, "$1")
     .replace(/\(([\d.]+)-([\d.]+)\)/g, "$1");
 }

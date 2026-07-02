@@ -50,6 +50,17 @@ h1 {
   font-size: 0.85rem;
 }
 
+.notice a,
+.help-body a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.notice a:hover,
+.help-body a:hover {
+  text-decoration: underline;
+}
+
 .help {
   margin: 1.5rem 0 0;
   border: 1px solid var(--border);
@@ -246,7 +257,18 @@ button:disabled:hover {
   font-size: 0.9rem;
 }
 
+#notices {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #3a4a20;
+  border-radius: 6px;
+  background: #1a2010;
+  color: #b8c878;
+  font-size: 0.9rem;
+}
+
 #errors p,
+#notices p,
 .warn-detail {
   margin: 0.5rem 0 0;
   font-size: 0.85rem;

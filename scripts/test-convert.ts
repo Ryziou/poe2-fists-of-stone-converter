@@ -2,18 +2,21 @@ import { readFileSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { convertItem } from "../src/lib/convert";
-import type { ModifierRule } from "../src/lib/types";
+import type { ModifierRule, UniqueRule } from "../src/lib/types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
 const rules = JSON.parse(
   readFileSync(join(root, "public", "modifiers.json"), "utf8")
 ) as ModifierRule[];
+const uniques = JSON.parse(
+  readFileSync(join(root, "public", "uniques.json"), "utf8")
+) as UniqueRule[];
 
 let failures = 0;
 
 function expectSuccess(label: string, text: string) {
-  const { unmatched, error } = convertItem(text, rules);
+  const { unmatched, error } = convertItem(text, rules, uniques);
   if (error || unmatched.length) {
     failures++;
     console.error(`FAIL: ${label}`);
@@ -24,8 +27,33 @@ function expectSuccess(label: string, text: string) {
   console.log(`ok: ${label}`);
 }
 
+function expectUniqueNotice(label: string, text: string) {
+  const { unmatched, error, notice, text: output } = convertItem(text, rules, uniques);
+  if (error || unmatched.length || !notice || !output.includes("Rarity: Unique")) {
+    failures++;
+    console.error(`FAIL: ${label}`);
+    console.error(`  error: ${error}`);
+    console.error(`  notice: ${notice}`);
+    console.error(`  unmatched:`, unmatched);
+    return;
+  }
+  console.log(`ok: ${label}`);
+}
+
+function expectItemClassGloves(label: string, text: string) {
+  const { error, text: output } = convertItem(text, rules, uniques);
+  if (error || !output.startsWith("Item Class: Gloves\n")) {
+    failures++;
+    console.error(`FAIL: ${label}`);
+    console.error(`  error: ${error}`);
+    console.error(`  output start:`, output.split("\n").slice(0, 2));
+    return;
+  }
+  console.log(`ok: ${label}`);
+}
+
 function expectReject(label: string, text: string) {
-  const { error } = convertItem(text, rules);
+  const { error } = convertItem(text, rules, uniques);
   if (!error) {
     failures++;
     console.error(`FAIL: ${label} (expected rejection)`);
@@ -104,7 +132,7 @@ Test Boots
 --------
 +50 to maximum Life`;
 
-const uniqueGloves = `Item Class: Gloves
+const handOfWisdom = `Item Class: Gloves
 Rarity: Unique
 Hand of Wisdom and Action
 --------
@@ -170,8 +198,107 @@ expectSuccess("Dragon Paw (trade site)", dragonPaw);
 expectSuccess("Torment Hold (in-game copy)", tormentHold);
 expectSuccess("Agony Grip (trade site, rarity first)", agonyGrip);
 expectSuccess("Agony Grip (trade site script)", agonyGripScript);
+expectSuccess("Hand of Wisdom and Action (unique)", handOfWisdom);
+
+const demonStitcher = `Rarity: Unique
+Demon Stitcher
+Intricate Gloves
+Vaal Gloves
+--------
+Requires: Level 33, 42 Int
+--------
+Item Level: 80
+--------
++44 to maximum Energy Shield
++114 to maximum Life
+11% increased Cast Speed
+Sacrifice 13% of maximum Life to gain that much Energy Shield when you Cast a Spell
+--------
+Note: 1 regal`;
+
+expectSuccess("Demon Stitcher (Vaal Gloves class)", demonStitcher);
+
+const snakebite = `Snakebite
+Spined Bracers
+Vaal Gloves
+--------
+Requires: Level 33, 42 Dex
+--------
+Item Level: 65
+--------
+Sockets: S S 
+--------
+47% increased Evasion Rating
++9% to Chaos Resistance
+7 Life Regeneration per second
+22% chance to Poison on Hit
+Targets can be affected by +1 of your Poisons at the same time
+--------
+Corrupted
+--------
+Note: 99 exalted`;
+
+expectSuccess("Snakebite (compact trade header)", snakebite);
+
+const facebreaker = `Rarity: Unique
+Facebreaker
+Stocky Mitts
+Ezomyte Gloves
+Item Level: 83
+--------
+Has 8 to 12 Physical damage, +3 to +4 per Boss's Face Broken
+50% increased Stun Buildup
+1% more Unarmed Damage per 5 Strength
++0.3 metres to Melee Strike Range while Unarmed
++1 to Armour per Strength
+Can Attack as though using a One Handed Mace while both of your hand slots are empty
+Unarmed Attacks that would use an Equipped One Hand Mace's damage use this Item's damage
+--------
+Note: 99 exalted`;
+
+const deathblow = `Rarity: Unique
+Deathblow
+Doubled Gauntlets
+Ezomyte Gloves
+--------
+Requires: Level 33, 24 Str, 24 Dex
+--------
+Item Level: 81
+--------
+Sockets: S 
+--------
++100 to Stun Threshold (rune)
+Bonded: +20 to maximum Life (rune)
+Bonded: +20 to maximum Mana (rune)
+--------
+149% increased Armour and Evasion
+9% increased Attack Speed
+Gain 21 Life per enemy killed
+Gain 22 Mana per enemy killed
+Culling Strike
+--------
+Note: 99 exalted`;
+
+expectSuccess("Facebreaker (Ezomyte Gloves, inline item level)", facebreaker);
+expectSuccess("Deathblow (Ezomyte Gloves)", deathblow);
+
+const snakebiteMislabeledRare = `Rarity: Rare
+Snakebite
+Spined Bracers
+Vaal Gloves
+--------
++10 to maximum Life`;
+
+const vaalGlovesClassFirst = `Item Class: Vaal Gloves
+Rarity: Unique
+Snakebite
+Spined Bracers
+--------
+Item Level: 65`;
+
+expectUniqueNotice("Snakebite mislabeled as Rare", snakebiteMislabeledRare);
+expectItemClassGloves("Item Class Vaal Gloves normalized in output", vaalGlovesClassFirst);
 expectReject("Boots (rejected)", boots);
-expectReject("Unique gloves (rejected)", uniqueGloves);
 
 if (failures) {
   console.error(`\n${failures} test(s) failed`);

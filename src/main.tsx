@@ -35,17 +35,37 @@ function App() {
   const [unmatched, setUnmatched] = useState<string[]>([]);
   const [error, setError] = useState("");
   const [rules, setRules] = useState<ModifierRule[]>([]);
+  const [rulesError, setRulesError] = useState("");
   const [copyLabel, setCopyLabel] = useState("Copy output");
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}modifiers.json`)
-      .then((res) => res.json())
-      .then((data: ModifierRule[]) => setRules(data));
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((data: unknown) => {
+        if (!Array.isArray(data)) throw new Error("Invalid modifiers data");
+        setRules(data as ModifierRule[]);
+        setRulesError("");
+      })
+      .catch(() => {
+        setRulesError(
+          "Could not load modifier rules. Refresh the page or try again later."
+        );
+      });
   }, []);
 
-  const canCopy = Boolean(output) && !error && unmatched.length === 0;
+  const canCopy = Boolean(output) && !error && !rulesError && unmatched.length === 0;
 
   const runConvert = useCallback(() => {
+    if (rulesError) {
+      setOutput("");
+      setUnmatched([]);
+      setError(rulesError);
+      return;
+    }
+
     if (!rules.length) {
       setOutput("Loading modifier rules…");
       setUnmatched([]);
@@ -65,13 +85,18 @@ function App() {
     setOutput(result.text);
     setUnmatched(result.unmatched);
     setError(result.error ?? "");
-  }, [input, rules]);
+  }, [input, rules, rulesError]);
 
   const handleCopy = async () => {
     if (!canCopy) return;
-    await navigator.clipboard.writeText(output);
-    setCopyLabel("Copied!");
-    setTimeout(() => setCopyLabel("Copy output"), 1500);
+    try {
+      await navigator.clipboard.writeText(output);
+      setCopyLabel("Copied!");
+      setTimeout(() => setCopyLabel("Copy output"), 1500);
+    } catch {
+      setCopyLabel("Copy failed");
+      setTimeout(() => setCopyLabel("Copy output"), 2000);
+    }
   };
 
   const handleInputKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {
